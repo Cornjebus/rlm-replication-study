@@ -1,0 +1,9 @@
+Record ID: rec_00003
+Category: funding
+Company: Anthropic
+People: Sergey Levine
+Topic: natural language processing
+Location: Beijing
+Date: 2021-04
+
+Anthropic raised $5000M in funding for their natural language processing initiatives. Sergey Levine commented on the investment from their Beijing headquarters.

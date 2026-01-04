@@ -1,0 +1,9 @@
+Record ID: rec_00035
+Category: research
+Company: Coinbase
+People: Percy Liang
+Topic: neural networks
+Location: Austin
+Date: 2024-10
+
+Coinbase researchers including Percy Liang published new work on neural networks. The research, conducted at their Austin office, introduces novel approaches to machine learning.

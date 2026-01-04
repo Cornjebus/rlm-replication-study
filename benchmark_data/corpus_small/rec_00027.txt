@@ -1,0 +1,9 @@
+Record ID: rec_00027
+Category: research
+Company: Coinbase
+People: Chris Manning, Sergey Levine
+Topic: robotics
+Location: Tel Aviv
+Date: 2025-01
+
+Coinbase researchers including Chris Manning, Sergey Levine published new work on robotics. The research, conducted at their Tel Aviv office, introduces novel approaches to multimodal AI.

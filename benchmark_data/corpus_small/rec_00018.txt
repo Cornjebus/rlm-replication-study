@@ -1,0 +1,9 @@
+Record ID: rec_00018
+Category: hiring
+Company: Databricks
+People: Andrej Karpathy, Geoffrey Hinton, Chris Manning
+Topic: autonomous systems
+Location: Seattle
+Date: 2024-09
+
+Databricks hired Andrej Karpathy to lead autonomous systems efforts. The new role is based in Seattle and focuses on speech recognition.

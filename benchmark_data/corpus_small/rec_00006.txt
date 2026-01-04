@@ -1,0 +1,9 @@
+Record ID: rec_00006
+Category: policy
+Company: Square
+People: Chris Manning, Nick Bostrom, Andrej Karpathy
+Topic: AI alignment
+Location: London
+Date: 2020-11
+
+Square's Chris Manning testified on AI alignment policy. The London-based executive discussed implications for reinforcement learning.

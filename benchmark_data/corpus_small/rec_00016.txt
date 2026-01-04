@@ -1,0 +1,9 @@
+Record ID: rec_00016
+Category: hiring
+Company: Microsoft
+People: Max Tegmark, Andrew Ng, Ian Goodfellow
+Topic: neural networks
+Location: Shanghai
+Date: 2023-03
+
+Microsoft hired Max Tegmark to lead neural networks efforts. The new role is based in Shanghai and focuses on AI safety.

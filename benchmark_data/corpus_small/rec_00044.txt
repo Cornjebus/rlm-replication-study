@@ -1,0 +1,9 @@
+Record ID: rec_00044
+Category: hiring
+Company: SpaceX
+People: Sergey Levine, Max Tegmark, Dario Amodei
+Topic: neural networks
+Location: London
+Date: 2025-03
+
+SpaceX hired Sergey Levine to lead neural networks efforts. The new role is based in London and focuses on large language models.

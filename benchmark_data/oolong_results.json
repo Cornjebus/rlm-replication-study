@@ -1,0 +1,43 @@
+{
+  "total": 558,
+  "correct": 490,
+  "accuracy": 0.8781362007168458,
+  "avg_time_ms": 0.2556141986641832,
+  "llm_calls": 0,
+  "by_task": {
+    "TASK_TYPE.MOST_FREQ": {
+      "correct": 98,
+      "total": 107
+    },
+    "TASK_TYPE.LEAST_FREQ": {
+      "correct": 56,
+      "total": 62
+    },
+    "TASK_TYPE.RELATIVE_FREQ": {
+      "correct": 208,
+      "total": 228
+    },
+    "TASK_TYPE.NUMERIC_ONE_CLASS": {
+      "correct": 108,
+      "total": 138
+    },
+    "TASK_TYPE.SECOND_MOST_FREQ": {
+      "correct": 10,
+      "total": 11
+    },
+    "TASK_TYPE.REPRESENTED_N_TIMES": {
+      "correct": 10,
+      "total": 12
+    }
+  },
+  "by_dataset": {
+    "trec_coarse": {
+      "correct": 248,
+      "total": 250
+    },
+    "spam": {
+      "correct": 242,
+      "total": 308
+    }
+  }
+}

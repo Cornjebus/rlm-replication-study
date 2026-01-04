@@ -1,0 +1,9 @@
+Record ID: rec_00001
+Category: hiring
+Company: Plaid
+People: Demis Hassabis, Nick Bostrom, Sergey Levine
+Topic: machine learning
+Location: San Francisco
+Date: 2020-04
+
+Plaid hired Demis Hassabis to lead machine learning efforts. The new role is based in San Francisco and focuses on reinforcement learning.

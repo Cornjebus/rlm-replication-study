@@ -1,0 +1,9 @@
+Record ID: rec_00031
+Category: partnership
+Company: Palantir
+People: Andrej Karpathy, Percy Liang
+Topic: speech recognition
+Location: New York
+Date: 2021-07
+
+Palantir partnered with Anthropic on speech recognition. Andrej Karpathy and team in New York will lead the collaboration on robotics.

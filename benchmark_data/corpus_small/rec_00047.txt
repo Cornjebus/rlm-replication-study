@@ -1,0 +1,9 @@
+Record ID: rec_00047
+Category: policy
+Company: Tesla
+People: Geoffrey Hinton, Fei-Fei Li, Ilya Sutskever
+Topic: autonomous systems
+Location: Seattle
+Date: 2023-01
+
+Tesla's Geoffrey Hinton testified on autonomous systems policy. The Seattle-based executive discussed implications for transformers.

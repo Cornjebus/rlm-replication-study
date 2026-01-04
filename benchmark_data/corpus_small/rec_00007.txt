@@ -1,0 +1,9 @@
+Record ID: rec_00007
+Category: policy
+Company: Mistral
+People: Fei-Fei Li
+Topic: recommendation systems
+Location: Toronto
+Date: 2023-05
+
+Mistral's Fei-Fei Li testified on recommendation systems policy. The Toronto-based executive discussed implications for AI safety.

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Data files (large, can be regenerated)
+benchmark_data/corpus/
+benchmark_data/oolong/*.parquet
+
+# Keep results for evidence
+!benchmark_data/oolong_results.json
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Skill archive
+*.skill

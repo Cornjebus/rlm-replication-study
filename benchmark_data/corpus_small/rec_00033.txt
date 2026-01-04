@@ -1,0 +1,9 @@
+Record ID: rec_00033
+Category: product
+Company: OpenAI
+People: Max Tegmark, Sam Altman, Ian Goodfellow
+Topic: machine learning
+Location: New York
+Date: 2024-08
+
+OpenAI announced a new machine learning product. Max Tegmark led the development team based in New York. The product aims to improve large language models capabilities.

@@ -1,0 +1,9 @@
+Record ID: rec_00012
+Category: partnership
+Company: Square
+People: Geoffrey Hinton, Andrew Ng
+Topic: transformers
+Location: Austin
+Date: 2025-09
+
+Square partnered with Snowflake on transformers. Geoffrey Hinton and team in Austin will lead the collaboration on computer vision.

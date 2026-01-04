@@ -1,0 +1,9 @@
+Record ID: rec_00046
+Category: policy
+Company: OpenAI
+People: Andrej Karpathy, Fei-Fei Li
+Topic: multimodal AI
+Location: Toronto
+Date: 2022-09
+
+OpenAI's Andrej Karpathy testified on multimodal AI policy. The Toronto-based executive discussed implications for speech recognition.

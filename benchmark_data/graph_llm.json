@@ -1,0 +1,2086 @@
+{
+  "entities": {
+    "ent_70ce871f8a3d": {
+      "id": "ent_70ce871f8a3d",
+      "type": "organization",
+      "name": "Record",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_57bb8116c5fc",
+        "doc_b495a913004a",
+        "doc_f72be4f4e766",
+        "doc_80a3aed82f06",
+        "doc_3c89038158e0",
+        "doc_ebd7681570e2",
+        "doc_cec743946eb2",
+        "doc_3e1637843f13",
+        "doc_8cfd2ca95554",
+        "doc_4bd7a2bd2b39",
+        "doc_15c6c68779bf",
+        "doc_1de42346fb4e",
+        "doc_dbc531585a2a",
+        "doc_5f4eca18a70b",
+        "doc_8dd0efc23bcd",
+        "doc_a5e5f75f9a6f",
+        "doc_323a031c5563",
+        "doc_4a12bec636b1",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_a06de9c3ea9e",
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff",
+        "doc_7096b34fc1ad",
+        "doc_03e88f70ba6d",
+        "doc_7e305717e02c",
+        "doc_12ede2890de5",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_ddacc48c3ff6",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_5c7feac5f8e9",
+        "doc_2ebda0346f0b",
+        "doc_7b7e4e58deca",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_78daaa3b5c1a",
+        "doc_8fc4d9610513",
+        "doc_72550dae56ae",
+        "doc_b170adfa9d99",
+        "doc_eaf30a5f3f8c",
+        "doc_2e75c5ca92c9",
+        "doc_5e9612fb03a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_edb2cd3b74c9": {
+      "id": "ent_edb2cd3b74c9",
+      "type": "organization",
+      "name": "Category",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_57bb8116c5fc",
+        "doc_b495a913004a",
+        "doc_f72be4f4e766",
+        "doc_80a3aed82f06",
+        "doc_3c89038158e0",
+        "doc_ebd7681570e2",
+        "doc_cec743946eb2",
+        "doc_3e1637843f13",
+        "doc_8cfd2ca95554",
+        "doc_4bd7a2bd2b39",
+        "doc_15c6c68779bf",
+        "doc_1de42346fb4e",
+        "doc_dbc531585a2a",
+        "doc_5f4eca18a70b",
+        "doc_8dd0efc23bcd",
+        "doc_a5e5f75f9a6f",
+        "doc_323a031c5563",
+        "doc_4a12bec636b1",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_a06de9c3ea9e",
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff",
+        "doc_7096b34fc1ad",
+        "doc_03e88f70ba6d",
+        "doc_7e305717e02c",
+        "doc_12ede2890de5",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_ddacc48c3ff6",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_5c7feac5f8e9",
+        "doc_2ebda0346f0b",
+        "doc_7b7e4e58deca",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_78daaa3b5c1a",
+        "doc_8fc4d9610513",
+        "doc_72550dae56ae",
+        "doc_b170adfa9d99",
+        "doc_eaf30a5f3f8c",
+        "doc_2e75c5ca92c9",
+        "doc_5e9612fb03a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_f168ccdd9154": {
+      "id": "ent_f168ccdd9154",
+      "type": "organization",
+      "name": "Company",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_57bb8116c5fc",
+        "doc_b495a913004a",
+        "doc_f72be4f4e766",
+        "doc_80a3aed82f06",
+        "doc_3c89038158e0",
+        "doc_ebd7681570e2",
+        "doc_cec743946eb2",
+        "doc_3e1637843f13",
+        "doc_8cfd2ca95554",
+        "doc_4bd7a2bd2b39",
+        "doc_15c6c68779bf",
+        "doc_1de42346fb4e",
+        "doc_dbc531585a2a",
+        "doc_5f4eca18a70b",
+        "doc_8dd0efc23bcd",
+        "doc_a5e5f75f9a6f",
+        "doc_323a031c5563",
+        "doc_4a12bec636b1",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_a06de9c3ea9e",
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff",
+        "doc_7096b34fc1ad",
+        "doc_03e88f70ba6d",
+        "doc_7e305717e02c",
+        "doc_12ede2890de5",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_ddacc48c3ff6",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_5c7feac5f8e9",
+        "doc_2ebda0346f0b",
+        "doc_7b7e4e58deca",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_78daaa3b5c1a",
+        "doc_8fc4d9610513",
+        "doc_72550dae56ae",
+        "doc_b170adfa9d99",
+        "doc_eaf30a5f3f8c",
+        "doc_2e75c5ca92c9",
+        "doc_5e9612fb03a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_23b4d5510709": {
+      "id": "ent_23b4d5510709",
+      "type": "organization",
+      "name": "Meta\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_1de42346fb4e",
+        "doc_5c7feac5f8e9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e8efed8b991e": {
+      "id": "ent_e8efed8b991e",
+      "type": "organization",
+      "name": "Nick Bostrom",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_323a031c5563",
+        "doc_040a0de1cfad",
+        "doc_a32655df5492",
+        "doc_78daaa3b5c1a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5025040fd949": {
+      "id": "ent_5025040fd949",
+      "type": "organization",
+      "name": "Eliezer Yudkowsky",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_5f4eca18a70b",
+        "doc_03e88f70ba6d",
+        "doc_ed0ed1b659a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_13c05a01f273": {
+      "id": "ent_13c05a01f273",
+      "type": "concept",
+      "name": "Pieter Abbeel\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e6eaea18e885": {
+      "id": "ent_e6eaea18e885",
+      "type": "concept",
+      "name": "Location",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_57bb8116c5fc",
+        "doc_b495a913004a",
+        "doc_f72be4f4e766",
+        "doc_80a3aed82f06",
+        "doc_3c89038158e0",
+        "doc_ebd7681570e2",
+        "doc_cec743946eb2",
+        "doc_3e1637843f13",
+        "doc_8cfd2ca95554",
+        "doc_4bd7a2bd2b39",
+        "doc_15c6c68779bf",
+        "doc_1de42346fb4e",
+        "doc_dbc531585a2a",
+        "doc_5f4eca18a70b",
+        "doc_8dd0efc23bcd",
+        "doc_a5e5f75f9a6f",
+        "doc_323a031c5563",
+        "doc_4a12bec636b1",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_a06de9c3ea9e",
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff",
+        "doc_7096b34fc1ad",
+        "doc_03e88f70ba6d",
+        "doc_7e305717e02c",
+        "doc_12ede2890de5",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_ddacc48c3ff6",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_5c7feac5f8e9",
+        "doc_2ebda0346f0b",
+        "doc_7b7e4e58deca",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_78daaa3b5c1a",
+        "doc_8fc4d9610513",
+        "doc_72550dae56ae",
+        "doc_b170adfa9d99",
+        "doc_eaf30a5f3f8c",
+        "doc_2e75c5ca92c9",
+        "doc_5e9612fb03a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5795c64ef087": {
+      "id": "ent_5795c64ef087",
+      "type": "concept",
+      "name": "Bangalore\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_15c6c68779bf",
+        "doc_7096b34fc1ad"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_ea3bd73e2b50": {
+      "id": "ent_ea3bd73e2b50",
+      "type": "organization",
+      "name": "Meta",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_1de42346fb4e",
+        "doc_5c7feac5f8e9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c5508df96097": {
+      "id": "ent_c5508df96097",
+      "type": "concept",
+      "name": "Bangalore",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1bf6df4ce08e",
+        "doc_a6bb10b92290",
+        "doc_15c6c68779bf",
+        "doc_7096b34fc1ad"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c9022680f888": {
+      "id": "ent_c9022680f888",
+      "type": "organization",
+      "name": "People",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a6bb10b92290",
+        "doc_57bb8116c5fc",
+        "doc_80a3aed82f06",
+        "doc_cec743946eb2",
+        "doc_3e1637843f13",
+        "doc_15c6c68779bf",
+        "doc_8dd0efc23bcd",
+        "doc_a5e5f75f9a6f",
+        "doc_3445e19fa385",
+        "doc_a06de9c3ea9e",
+        "doc_7096b34fc1ad",
+        "doc_12ede2890de5",
+        "doc_386aab06e45e",
+        "doc_040a0de1cfad",
+        "doc_ddacc48c3ff6",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_2ebda0346f0b",
+        "doc_7b7e4e58deca"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_d63ecd0d660c": {
+      "id": "ent_d63ecd0d660c",
+      "type": "organization",
+      "name": "Sergey Levine",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a6bb10b92290",
+        "doc_b495a913004a",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_82fa70c334c0": {
+      "id": "ent_82fa70c334c0",
+      "type": "organization",
+      "name": "Max Tegmark\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a6bb10b92290",
+        "doc_3e1637843f13",
+        "doc_7e305717e02c",
+        "doc_ddacc48c3ff6",
+        "doc_eaf30a5f3f8c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3dfe790acf2c": {
+      "id": "ent_3dfe790acf2c",
+      "type": "organization",
+      "name": "Max Tegmark",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_57bb8116c5fc",
+        "doc_3e1637843f13",
+        "doc_1de42346fb4e",
+        "doc_b243d1913a82",
+        "doc_3445e19fa385",
+        "doc_7e305717e02c",
+        "doc_2ebda0346f0b",
+        "doc_eaf30a5f3f8c",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_46b09b212b77": {
+      "id": "ent_46b09b212b77",
+      "type": "organization",
+      "name": "Sam Altman",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_57bb8116c5fc",
+        "doc_3e1637843f13",
+        "doc_4bd7a2bd2b39",
+        "doc_4ef4dd6af9ff",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_8330e617fd3c": {
+      "id": "ent_8330e617fd3c",
+      "type": "organization",
+      "name": "Ian Goodfellow\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_57bb8116c5fc",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_834defe58ddc": {
+      "id": "ent_834defe58ddc",
+      "type": "concept",
+      "name": "New York\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_57bb8116c5fc",
+        "doc_f72be4f4e766",
+        "doc_cec743946eb2",
+        "doc_b243d1913a82"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_bd732730bd39": {
+      "id": "ent_bd732730bd39",
+      "type": "concept",
+      "name": "New York",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_57bb8116c5fc",
+        "doc_f72be4f4e766",
+        "doc_cec743946eb2",
+        "doc_b243d1913a82"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_fc85e3d7b8d2": {
+      "id": "ent_fc85e3d7b8d2",
+      "type": "organization",
+      "name": "Coinbase\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a",
+        "doc_dbc531585a2a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_74088ada26c4": {
+      "id": "ent_74088ada26c4",
+      "type": "organization",
+      "name": "Chris Manning",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a",
+        "doc_8cfd2ca95554",
+        "doc_a32655df5492"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_ff106dfcd7f1": {
+      "id": "ent_ff106dfcd7f1",
+      "type": "organization",
+      "name": "Sergey Levine\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a",
+        "doc_b243d1913a82",
+        "doc_8aef7a1294de",
+        "doc_78daaa3b5c1a",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_329754010a27": {
+      "id": "ent_329754010a27",
+      "type": "organization",
+      "name": "Tel Aviv\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_f80f21938e52": {
+      "id": "ent_f80f21938e52",
+      "type": "organization",
+      "name": "Coinbase",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a",
+        "doc_dbc531585a2a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_73ef44a8cc2d": {
+      "id": "ent_73ef44a8cc2d",
+      "type": "organization",
+      "name": "Tel Aviv",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b495a913004a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_a05196a30ba8": {
+      "id": "ent_a05196a30ba8",
+      "type": "organization",
+      "name": "Palantir\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_f72be4f4e766"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_0c279fdbaf47": {
+      "id": "ent_0c279fdbaf47",
+      "type": "organization",
+      "name": "Andrej Karpathy",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_f72be4f4e766",
+        "doc_ebd7681570e2",
+        "doc_4a12bec636b1",
+        "doc_a06de9c3ea9e"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_67f313f79fc1": {
+      "id": "ent_67f313f79fc1",
+      "type": "organization",
+      "name": "Percy Liang\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_f72be4f4e766",
+        "doc_dbc531585a2a",
+        "doc_4a12bec636b1",
+        "doc_040a0de1cfad"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c21b962e71f1": {
+      "id": "ent_c21b962e71f1",
+      "type": "organization",
+      "name": "Palantir",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_f72be4f4e766"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c70eca6b0f88": {
+      "id": "ent_c70eca6b0f88",
+      "type": "concept",
+      "name": "Anthropic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_f72be4f4e766",
+        "doc_12ede2890de5",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_b1e79532d5b9": {
+      "id": "ent_b1e79532d5b9",
+      "type": "organization",
+      "name": "Stability",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_80a3aed82f06",
+        "doc_a5e5f75f9a6f",
+        "doc_7096b34fc1ad",
+        "doc_386aab06e45e",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_7b7e4e58deca"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_010ec6bfc787": {
+      "id": "ent_010ec6bfc787",
+      "type": "organization",
+      "name": "Stuart Russell\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_80a3aed82f06",
+        "doc_03e88f70ba6d"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_828afcad79b7": {
+      "id": "ent_828afcad79b7",
+      "type": "concept",
+      "name": "Beijing\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_80a3aed82f06",
+        "doc_7e305717e02c",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5cca20de88e4": {
+      "id": "ent_5cca20de88e4",
+      "type": "organization",
+      "name": "Stuart Russell",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_80a3aed82f06",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_bdd8960db7b8": {
+      "id": "ent_bdd8960db7b8",
+      "type": "concept",
+      "name": "The Beijing",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_80a3aed82f06"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_93a45cb68bac": {
+      "id": "ent_93a45cb68bac",
+      "type": "organization",
+      "name": "Stripe\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_eaf30a5f3f8c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_af5d8bcfe43c": {
+      "id": "ent_af5d8bcfe43c",
+      "type": "organization",
+      "name": "Pieter Abbeel",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_1de42346fb4e"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_cd360ab7b7de": {
+      "id": "ent_cd360ab7b7de",
+      "type": "organization",
+      "name": "Dario Amodei\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_3445e19fa385",
+        "doc_4ef4dd6af9ff",
+        "doc_b169e145e0c5"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_ad7688a04de7": {
+      "id": "ent_ad7688a04de7",
+      "type": "organization",
+      "name": "Singapore\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_4a12bec636b1"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_2bed2032ed3d": {
+      "id": "ent_2bed2032ed3d",
+      "type": "organization",
+      "name": "Stripe",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_eaf30a5f3f8c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c80dd7193e85": {
+      "id": "ent_c80dd7193e85",
+      "type": "organization",
+      "name": "Dario Amodei",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_b169e145e0c5"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_51e2a46721d1": {
+      "id": "ent_51e2a46721d1",
+      "type": "organization",
+      "name": "Singapore",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3c89038158e0",
+        "doc_4a12bec636b1"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_fb2bc897bc64": {
+      "id": "ent_fb2bc897bc64",
+      "type": "organization",
+      "name": "Databricks\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_4bd7a2bd2b39"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_89e737c0c38b": {
+      "id": "ent_89e737c0c38b",
+      "type": "organization",
+      "name": "Geoffrey Hinton",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_b243d1913a82",
+        "doc_7778b752a2ae",
+        "doc_51198662454a",
+        "doc_8aef7a1294de"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_4198c3713c04": {
+      "id": "ent_4198c3713c04",
+      "type": "concept",
+      "name": "Chris Manning\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_8cfd2ca95554"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e88e728bb410": {
+      "id": "ent_e88e728bb410",
+      "type": "concept",
+      "name": "Seattle\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_5f4eca18a70b",
+        "doc_7778b752a2ae",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_2dc010636b9d": {
+      "id": "ent_2dc010636b9d",
+      "type": "organization",
+      "name": "Databricks",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_4bd7a2bd2b39"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3151a8f227c0": {
+      "id": "ent_3151a8f227c0",
+      "type": "concept",
+      "name": "Seattle",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ebd7681570e2",
+        "doc_5f4eca18a70b",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_2181651e9961": {
+      "id": "ent_2181651e9961",
+      "type": "organization",
+      "name": "Demis Hassabis\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_cec743946eb2",
+        "doc_15c6c68779bf",
+        "doc_8dd0efc23bcd",
+        "doc_890a1bfd0513",
+        "doc_7b7e4e58deca"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_765cc641dc29": {
+      "id": "ent_765cc641dc29",
+      "type": "organization",
+      "name": "Demis Hassabis",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_cec743946eb2",
+        "doc_15c6c68779bf",
+        "doc_8dd0efc23bcd",
+        "doc_890a1bfd0513",
+        "doc_5c7feac5f8e9",
+        "doc_7b7e4e58deca",
+        "doc_78daaa3b5c1a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_a10415383402": {
+      "id": "ent_a10415383402",
+      "type": "organization",
+      "name": "Yann",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3e1637843f13",
+        "doc_2ebda0346f0b",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3f2d8677b48b": {
+      "id": "ent_3f2d8677b48b",
+      "type": "organization",
+      "name": "San Francisco\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3e1637843f13",
+        "doc_8dd0efc23bcd",
+        "doc_78daaa3b5c1a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_1a2290470e0a": {
+      "id": "ent_1a2290470e0a",
+      "type": "organization",
+      "name": "San Francisco",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3e1637843f13",
+        "doc_8dd0efc23bcd",
+        "doc_78daaa3b5c1a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_828fd1e5326c": {
+      "id": "ent_828fd1e5326c",
+      "type": "organization",
+      "name": "Hugging Face\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_8cfd2ca95554",
+        "doc_b243d1913a82"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3b895f3d1be5": {
+      "id": "ent_3b895f3d1be5",
+      "type": "concept",
+      "name": "Boston\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_8cfd2ca95554"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e3ce9cc5efa9": {
+      "id": "ent_e3ce9cc5efa9",
+      "type": "organization",
+      "name": "Hugging Face",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_8cfd2ca95554",
+        "doc_b243d1913a82"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3c66157844fa": {
+      "id": "ent_3c66157844fa",
+      "type": "concept",
+      "name": "Boston",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_8cfd2ca95554"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_59e13b5ed8b8": {
+      "id": "ent_59e13b5ed8b8",
+      "type": "organization",
+      "name": "Sam Altman\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4bd7a2bd2b39",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5632a9b36132": {
+      "id": "ent_5632a9b36132",
+      "type": "concept",
+      "name": "London\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4bd7a2bd2b39",
+        "doc_3445e19fa385",
+        "doc_a32655df5492"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5ea6f4ce1c16": {
+      "id": "ent_5ea6f4ce1c16",
+      "type": "concept",
+      "name": "The London",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4bd7a2bd2b39",
+        "doc_a32655df5492"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_db7050910b08": {
+      "id": "ent_db7050910b08",
+      "type": "organization",
+      "name": "Ilya Sutskever\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1de42346fb4e",
+        "doc_7778b752a2ae",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_657f40380c4e": {
+      "id": "ent_657f40380c4e",
+      "type": "concept",
+      "name": "Sydney\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1de42346fb4e"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e80326044471": {
+      "id": "ent_e80326044471",
+      "type": "concept",
+      "name": "Sydney",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_1de42346fb4e"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_1d0ac9865d48": {
+      "id": "ent_1d0ac9865d48",
+      "type": "organization",
+      "name": "Austin\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_dbc531585a2a",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_8fc4d9610513"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_65d514f9ad12": {
+      "id": "ent_65d514f9ad12",
+      "type": "organization",
+      "name": "Percy Liang",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_dbc531585a2a"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c7c1319276e9": {
+      "id": "ent_c7c1319276e9",
+      "type": "organization",
+      "name": "Austin",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_dbc531585a2a",
+        "doc_040a0de1cfad",
+        "doc_51198662454a",
+        "doc_8fc4d9610513"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_bc56aa9899da": {
+      "id": "ent_bc56aa9899da",
+      "type": "organization",
+      "name": "Square\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_5f4eca18a70b",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_f4531afc7afa": {
+      "id": "ent_f4531afc7afa",
+      "type": "organization",
+      "name": "Eliezer Yudkowsky\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_5f4eca18a70b",
+        "doc_323a031c5563"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_4ba3e8e3765f": {
+      "id": "ent_4ba3e8e3765f",
+      "type": "organization",
+      "name": "Square",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_5f4eca18a70b",
+        "doc_51198662454a",
+        "doc_a32655df5492",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_1bdf3ba5371e": {
+      "id": "ent_1bdf3ba5371e",
+      "type": "organization",
+      "name": "Andrew Ng\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a5e5f75f9a6f",
+        "doc_7096b34fc1ad",
+        "doc_386aab06e45e",
+        "doc_51198662454a",
+        "doc_8fc4d9610513"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_655a4b17a5f6": {
+      "id": "ent_655a4b17a5f6",
+      "type": "concept",
+      "name": "Montreal\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a5e5f75f9a6f",
+        "doc_4ef4dd6af9ff"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_625cbfd5d1c0": {
+      "id": "ent_625cbfd5d1c0",
+      "type": "organization",
+      "name": "Andrew Ng",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a5e5f75f9a6f",
+        "doc_7096b34fc1ad",
+        "doc_ddacc48c3ff6",
+        "doc_7b7e4e58deca",
+        "doc_8fc4d9610513",
+        "doc_2e75c5ca92c9",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_94a2d0099623": {
+      "id": "ent_94a2d0099623",
+      "type": "concept",
+      "name": "Montreal",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a5e5f75f9a6f",
+        "doc_4ef4dd6af9ff"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3c9b49c9308d": {
+      "id": "ent_3c9b49c9308d",
+      "type": "organization",
+      "name": "Google\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_323a031c5563"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_4392210bac69": {
+      "id": "ent_4392210bac69",
+      "type": "concept",
+      "name": "Tokyo\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_323a031c5563",
+        "doc_ddacc48c3ff6",
+        "doc_7b7e4e58deca",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_bbdefa2950f4": {
+      "id": "ent_bbdefa2950f4",
+      "type": "organization",
+      "name": "Google",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_323a031c5563"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_afe045790040": {
+      "id": "ent_afe045790040",
+      "type": "concept",
+      "name": "Tokyo",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_323a031c5563",
+        "doc_ddacc48c3ff6",
+        "doc_7b7e4e58deca",
+        "doc_b170adfa9d99"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_cf561c5642be": {
+      "id": "ent_cf561c5642be",
+      "type": "organization",
+      "name": "Affirm\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4a12bec636b1",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_d5cd94d05b3f": {
+      "id": "ent_d5cd94d05b3f",
+      "type": "organization",
+      "name": "Yoshua Bengio",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4a12bec636b1"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_934a426989f7": {
+      "id": "ent_934a426989f7",
+      "type": "organization",
+      "name": "Affirm",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_4a12bec636b1",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_6089854c94ca": {
+      "id": "ent_6089854c94ca",
+      "type": "concept",
+      "name": "London",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_3445e19fa385"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_da5d8b3d9bb1": {
+      "id": "ent_da5d8b3d9bb1",
+      "type": "organization",
+      "name": "Fei",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a06de9c3ea9e",
+        "doc_7778b752a2ae",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_5c7feac5f8e9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_ebdffc3088ec": {
+      "id": "ent_ebdffc3088ec",
+      "type": "organization",
+      "name": "Fei Li\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a06de9c3ea9e",
+        "doc_6e37bfe3027c",
+        "doc_5c7feac5f8e9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_afb1a95eb529": {
+      "id": "ent_afb1a95eb529",
+      "type": "concept",
+      "name": "Toronto\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a06de9c3ea9e",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c",
+        "doc_890a1bfd0513",
+        "doc_b169e145e0c5",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_6814b55a5bd6": {
+      "id": "ent_6814b55a5bd6",
+      "type": "concept",
+      "name": "The Toronto",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a06de9c3ea9e",
+        "doc_6e37bfe3027c",
+        "doc_890a1bfd0513"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_288d4467c0ad": {
+      "id": "ent_288d4467c0ad",
+      "type": "organization",
+      "name": "Tesla\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_903b8f4a1427": {
+      "id": "ent_903b8f4a1427",
+      "type": "organization",
+      "name": "Fei Li",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7778b752a2ae",
+        "doc_386aab06e45e",
+        "doc_6e37bfe3027c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_7358bd4ec877": {
+      "id": "ent_7358bd4ec877",
+      "type": "organization",
+      "name": "Tesla",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7778b752a2ae",
+        "doc_4ef4dd6af9ff"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_9fb56bc53df9": {
+      "id": "ent_9fb56bc53df9",
+      "type": "concept",
+      "name": "The Seattle",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7778b752a2ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_9501b5a5ccc1": {
+      "id": "ent_9501b5a5ccc1",
+      "type": "organization",
+      "name": "Robinhood\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_03e88f70ba6d"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_e981082b2afa": {
+      "id": "ent_e981082b2afa",
+      "type": "concept",
+      "name": "Shanghai\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_03e88f70ba6d",
+        "doc_12ede2890de5",
+        "doc_5c7feac5f8e9",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_5815755fc6ef": {
+      "id": "ent_5815755fc6ef",
+      "type": "organization",
+      "name": "Robinhood",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_03e88f70ba6d"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_713ec46512c8": {
+      "id": "ent_713ec46512c8",
+      "type": "concept",
+      "name": "Shanghai",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_03e88f70ba6d",
+        "doc_12ede2890de5",
+        "doc_5c7feac5f8e9",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_c7d19cdae170": {
+      "id": "ent_c7d19cdae170",
+      "type": "organization",
+      "name": "Microsoft\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7e305717e02c",
+        "doc_8fc4d9610513",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_9fbf261b62c1": {
+      "id": "ent_9fbf261b62c1",
+      "type": "organization",
+      "name": "Microsoft",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7e305717e02c",
+        "doc_8fc4d9610513",
+        "doc_2e75c5ca92c9"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_cc495debc1aa": {
+      "id": "ent_cc495debc1aa",
+      "type": "concept",
+      "name": "Beijing",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_7e305717e02c",
+        "doc_8aef7a1294de",
+        "doc_ed0ed1b659a2",
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_88ae08a107f5": {
+      "id": "ent_88ae08a107f5",
+      "type": "organization",
+      "name": "Chelsea Finn\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_12ede2890de5",
+        "doc_ed0ed1b659a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_78774acd6bb6": {
+      "id": "ent_78774acd6bb6",
+      "type": "organization",
+      "name": "Chelsea Finn",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_12ede2890de5",
+        "doc_2ebda0346f0b",
+        "doc_ed0ed1b659a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_141256c5c140": {
+      "id": "ent_141256c5c140",
+      "type": "concept",
+      "name": "Toronto",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_386aab06e45e",
+        "doc_b169e145e0c5",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_0dd2547224b4": {
+      "id": "ent_0dd2547224b4",
+      "type": "organization",
+      "name": "Mistral\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_6e37bfe3027c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_920510199770": {
+      "id": "ent_920510199770",
+      "type": "organization",
+      "name": "Mistral",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_6e37bfe3027c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_de5a1adf4fed": {
+      "id": "ent_de5a1adf4fed",
+      "type": "concept",
+      "name": "Snowflake",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_51198662454a",
+        "doc_8aef7a1294de"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_f14fa36e74eb": {
+      "id": "ent_f14fa36e74eb",
+      "type": "concept",
+      "name": "Andrej Karpathy\nTopic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_a32655df5492"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3a7bd3e2360a": {
+      "id": "ent_3a7bd3e2360a",
+      "type": "concept",
+      "name": "Apple",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_b169e145e0c5"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_23d611a6f6f8": {
+      "id": "ent_23d611a6f6f8",
+      "type": "concept",
+      "name": "Topic",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_2ebda0346f0b",
+        "doc_72550dae56ae"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_dcf1e4f4a9a6": {
+      "id": "ent_dcf1e4f4a9a6",
+      "type": "concept",
+      "name": "Berlin\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_2ebda0346f0b"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_fb38a93fd89e": {
+      "id": "ent_fb38a93fd89e",
+      "type": "concept",
+      "name": "Berlin",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_2ebda0346f0b"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_0c824adb3e5d": {
+      "id": "ent_0c824adb3e5d",
+      "type": "organization",
+      "name": "Snowflake\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_8aef7a1294de"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_882c6eaec533": {
+      "id": "ent_882c6eaec533",
+      "type": "organization",
+      "name": "Nvidia\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ed0ed1b659a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_8d4321d93632": {
+      "id": "ent_8d4321d93632",
+      "type": "organization",
+      "name": "Nvidia",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_ed0ed1b659a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_3a04cd502c13": {
+      "id": "ent_3a04cd502c13",
+      "type": "organization",
+      "name": "Plaid\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_78daaa3b5c1a",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_45cd2fb5a170": {
+      "id": "ent_45cd2fb5a170",
+      "type": "organization",
+      "name": "Plaid",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_78daaa3b5c1a",
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_408363a50d10": {
+      "id": "ent_408363a50d10",
+      "type": "concept",
+      "name": "Paris\nDate",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_eaf30a5f3f8c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_1670f2e42fef": {
+      "id": "ent_1670f2e42fef",
+      "type": "concept",
+      "name": "Paris",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_eaf30a5f3f8c"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_49ae3dda3a80": {
+      "id": "ent_49ae3dda3a80",
+      "type": "organization",
+      "name": "Ilya Sutskever",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_5e9612fb03a2"
+      ],
+      "extraction_confidence": 1.0
+    },
+    "ent_721c0a811c72": {
+      "id": "ent_721c0a811c72",
+      "type": "organization",
+      "name": "Anthropic\nPeople",
+      "aliases": [],
+      "attributes": {},
+      "source_docs": [
+        "doc_d6c78f93fb21"
+      ],
+      "extraction_confidence": 1.0
+    }
+  },
+  "relationships": {},
+  "documents": {
+    "doc_1bf6df4ce08e": {
+      "id": "doc_1bf6df4ce08e",
+      "path": "benchmark_data/corpus_small/rec_00026.txt",
+      "title": "rec 00026",
+      "content_hash": "82a4c2398a8373f0950b9351ec95860570dee748d2cd71c7d30c6443b21aaf39",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:58.991229"
+    },
+    "doc_a6bb10b92290": {
+      "id": "doc_a6bb10b92290",
+      "path": "benchmark_data/corpus_small/rec_00032.txt",
+      "title": "rec 00032",
+      "content_hash": "c006726c16db5327c2bcb79a30af6692dd579dea0fc4a2082965c25f70806371",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.020484"
+    },
+    "doc_57bb8116c5fc": {
+      "id": "doc_57bb8116c5fc",
+      "path": "benchmark_data/corpus_small/rec_00033.txt",
+      "title": "rec 00033",
+      "content_hash": "6d260a70bf5f0b07ca57a75d15b71d4cf27b4d0de12e9c30c4334ab754ef43dc",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.053734"
+    },
+    "doc_b495a913004a": {
+      "id": "doc_b495a913004a",
+      "path": "benchmark_data/corpus_small/rec_00027.txt",
+      "title": "rec 00027",
+      "content_hash": "3955889c127d8047098e2d6785f3e0c8a847a66e2026e3ea3f23f33d5096b1b3",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.092960"
+    },
+    "doc_f72be4f4e766": {
+      "id": "doc_f72be4f4e766",
+      "path": "benchmark_data/corpus_small/rec_00031.txt",
+      "title": "rec 00031",
+      "content_hash": "de377cd09a61d78cb1a2efb81f7c4de315d94d19d6cc53c73f1d8b6064387c3f",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.122159"
+    },
+    "doc_80a3aed82f06": {
+      "id": "doc_80a3aed82f06",
+      "path": "benchmark_data/corpus_small/rec_00025.txt",
+      "title": "rec 00025",
+      "content_hash": "a8f3d0d9fa27f2934c193c9938842a0507554d2d0189388b530bc0c6a4a64b8d",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.150416"
+    },
+    "doc_3c89038158e0": {
+      "id": "doc_3c89038158e0",
+      "path": "benchmark_data/corpus_small/rec_00019.txt",
+      "title": "rec 00019",
+      "content_hash": "05e6a7f4da753f15bf922d3746c7d1b9a3772657b9b9d7a0c1f0134213235102",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.179316"
+    },
+    "doc_ebd7681570e2": {
+      "id": "doc_ebd7681570e2",
+      "path": "benchmark_data/corpus_small/rec_00018.txt",
+      "title": "rec 00018",
+      "content_hash": "c8b887a88e86acf71ed317267bbafb3129fd8ab548dce2834f6b6ac1621c9dbb",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.208206"
+    },
+    "doc_cec743946eb2": {
+      "id": "doc_cec743946eb2",
+      "path": "benchmark_data/corpus_small/rec_00024.txt",
+      "title": "rec 00024",
+      "content_hash": "da18bf7829587419487f6892572fd531732a4ec4ef77ddfc7ba244d376476037",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.237668"
+    },
+    "doc_3e1637843f13": {
+      "id": "doc_3e1637843f13",
+      "path": "benchmark_data/corpus_small/rec_00030.txt",
+      "title": "rec 00030",
+      "content_hash": "ccba6b63536a8d5e54e8b1ff1a1322a55fff1e38d938bb461f7d08007824cea6",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.275698"
+    },
+    "doc_8cfd2ca95554": {
+      "id": "doc_8cfd2ca95554",
+      "path": "benchmark_data/corpus_small/rec_00008.txt",
+      "title": "rec 00008",
+      "content_hash": "bd938b8d54819b91f5e7fcd3ad4b79ff0ac109d9d9a11a77bb83f6930a0e5cf4",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.304673"
+    },
+    "doc_4bd7a2bd2b39": {
+      "id": "doc_4bd7a2bd2b39",
+      "path": "benchmark_data/corpus_small/rec_00034.txt",
+      "title": "rec 00034",
+      "content_hash": "82af3d00b16d71dd9609fb58cc6ab34ff312b8dfe4e1e4c002268e65dc1945ee",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.333951"
+    },
+    "doc_15c6c68779bf": {
+      "id": "doc_15c6c68779bf",
+      "path": "benchmark_data/corpus_small/rec_00020.txt",
+      "title": "rec 00020",
+      "content_hash": "b20e0d38279d14f79325216975802e0b3c11dc0e749217dc4988bb67b5d84cd6",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.362822"
+    },
+    "doc_1de42346fb4e": {
+      "id": "doc_1de42346fb4e",
+      "path": "benchmark_data/corpus_small/rec_00021.txt",
+      "title": "rec 00021",
+      "content_hash": "1181fe42e1508fda1bcecf7795b53c16afc26fd0b37caade1d19f9faad9db0f4",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.392546"
+    },
+    "doc_dbc531585a2a": {
+      "id": "doc_dbc531585a2a",
+      "path": "benchmark_data/corpus_small/rec_00035.txt",
+      "title": "rec 00035",
+      "content_hash": "da650228c54935a741665b02484fbd26adf0a8704e235ea5f381dcbeea7c6acf",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.421374"
+    },
+    "doc_5f4eca18a70b": {
+      "id": "doc_5f4eca18a70b",
+      "path": "benchmark_data/corpus_small/rec_00009.txt",
+      "title": "rec 00009",
+      "content_hash": "8d7a3fd9d34b558f0ea61474d49268d82cbdd39eb26d0f0bfc66e6c808e43d86",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.451098"
+    },
+    "doc_8dd0efc23bcd": {
+      "id": "doc_8dd0efc23bcd",
+      "path": "benchmark_data/corpus_small/rec_00023.txt",
+      "title": "rec 00023",
+      "content_hash": "a53c74ffedcfc2f6fe3b36741fb80b7c4e5a186247fb78c3a10e8fc061bf3597",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.479897"
+    },
+    "doc_a5e5f75f9a6f": {
+      "id": "doc_a5e5f75f9a6f",
+      "path": "benchmark_data/corpus_small/rec_00037.txt",
+      "title": "rec 00037",
+      "content_hash": "30b438e52e4f427ae11b8446f558803341ef8deb48efe881d484f8363b820fc1",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.519420"
+    },
+    "doc_323a031c5563": {
+      "id": "doc_323a031c5563",
+      "path": "benchmark_data/corpus_small/rec_00036.txt",
+      "title": "rec 00036",
+      "content_hash": "2553e658bc4f35979ee30827df0341b618bb5401f355f7c134a3fe56505786bb",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.548424"
+    },
+    "doc_4a12bec636b1": {
+      "id": "doc_4a12bec636b1",
+      "path": "benchmark_data/corpus_small/rec_00022.txt",
+      "title": "rec 00022",
+      "content_hash": "605cdf9f63a181c9427ff663d22c3fda0b6a00db1a682214268df58e0a4694d1",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.577424"
+    },
+    "doc_b243d1913a82": {
+      "id": "doc_b243d1913a82",
+      "path": "benchmark_data/corpus_small/rec_00045.txt",
+      "title": "rec 00045",
+      "content_hash": "b12a4135feed161aeddcdce84e2e5db7bd32f71a05fc3dc8f11566d8a5d29b34",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.606129"
+    },
+    "doc_3445e19fa385": {
+      "id": "doc_3445e19fa385",
+      "path": "benchmark_data/corpus_small/rec_00044.txt",
+      "title": "rec 00044",
+      "content_hash": "e1c778f4f310e84e59f4c637707a3744de252e8674f2f266a1a4ef06f8f9674c",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.634498"
+    },
+    "doc_a06de9c3ea9e": {
+      "id": "doc_a06de9c3ea9e",
+      "path": "benchmark_data/corpus_small/rec_00046.txt",
+      "title": "rec 00046",
+      "content_hash": "08c34db608420c9a16ea28c516c9e54fcf796d624c2148b55e5fc20eda76d767",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.663517"
+    },
+    "doc_7778b752a2ae": {
+      "id": "doc_7778b752a2ae",
+      "path": "benchmark_data/corpus_small/rec_00047.txt",
+      "title": "rec 00047",
+      "content_hash": "0c28a80a344dcf44eb0307fc04eea742a6e6e5984b68728867950cfcc1283d4a",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.692119"
+    },
+    "doc_4ef4dd6af9ff": {
+      "id": "doc_4ef4dd6af9ff",
+      "path": "benchmark_data/corpus_small/rec_00043.txt",
+      "title": "rec 00043",
+      "content_hash": "2424f2d5dcb83ad6645e52a960b3c578201965864cdd95c07da8a1f71c572a21",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.720833"
+    },
+    "doc_7096b34fc1ad": {
+      "id": "doc_7096b34fc1ad",
+      "path": "benchmark_data/corpus_small/rec_00042.txt",
+      "title": "rec 00042",
+      "content_hash": "01e4b44aa7e66468f0358cf60d8c997e2bc294b337a2020ea6753e3cc667f50e",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.749838"
+    },
+    "doc_03e88f70ba6d": {
+      "id": "doc_03e88f70ba6d",
+      "path": "benchmark_data/corpus_small/rec_00040.txt",
+      "title": "rec 00040",
+      "content_hash": "e8577289d657bf1116cc0a7db268fcf532c5d55deb38138e2b878e699e7691d0",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.793434"
+    },
+    "doc_7e305717e02c": {
+      "id": "doc_7e305717e02c",
+      "path": "benchmark_data/corpus_small/rec_00041.txt",
+      "title": "rec 00041",
+      "content_hash": "8ac10cdc00f598e7ebd734b96d9567fcc25be5439092cbd78fcbd60d2c55204f",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.827966"
+    },
+    "doc_12ede2890de5": {
+      "id": "doc_12ede2890de5",
+      "path": "benchmark_data/corpus_small/rec_00049.txt",
+      "title": "rec 00049",
+      "content_hash": "db48f04b4c38dae83d2245c25dfe2cdd930284403a06a04df3ef920aaeda0fa9",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.857263"
+    },
+    "doc_386aab06e45e": {
+      "id": "doc_386aab06e45e",
+      "path": "benchmark_data/corpus_small/rec_00048.txt",
+      "title": "rec 00048",
+      "content_hash": "a6da3eb78e78b2554211d2b85c2607947a925c8a6d567f9d7565a0d517a66830",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.886018"
+    },
+    "doc_6e37bfe3027c": {
+      "id": "doc_6e37bfe3027c",
+      "path": "benchmark_data/corpus_small/rec_00007.txt",
+      "title": "rec 00007",
+      "content_hash": "887679fa5d04335137f0c67296f70eea316e4ea475176659839494921f2af545",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.914341"
+    },
+    "doc_040a0de1cfad": {
+      "id": "doc_040a0de1cfad",
+      "path": "benchmark_data/corpus_small/rec_00013.txt",
+      "title": "rec 00013",
+      "content_hash": "99018633495a6d6307bedf30fbe2ff9c0135c349eb6d25c7cde91305129b3bd3",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.943094"
+    },
+    "doc_51198662454a": {
+      "id": "doc_51198662454a",
+      "path": "benchmark_data/corpus_small/rec_00012.txt",
+      "title": "rec 00012",
+      "content_hash": "369587f505ba67eb2fb2dc32ff8379bba6b6e5d5b66dc6d33e8ec04bd688f55d",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:32:59.972276"
+    },
+    "doc_a32655df5492": {
+      "id": "doc_a32655df5492",
+      "path": "benchmark_data/corpus_small/rec_00006.txt",
+      "title": "rec 00006",
+      "content_hash": "f0774ac80804d6838086c001142e207291522ced81dadb0fd9030d863ccfe0c6",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.000913"
+    },
+    "doc_ddacc48c3ff6": {
+      "id": "doc_ddacc48c3ff6",
+      "path": "benchmark_data/corpus_small/rec_00010.txt",
+      "title": "rec 00010",
+      "content_hash": "645d518b34a62dc2872cb7add48c22a9cc7f320068d5eefe2d080f6bd7bcb304",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.049695"
+    },
+    "doc_890a1bfd0513": {
+      "id": "doc_890a1bfd0513",
+      "path": "benchmark_data/corpus_small/rec_00004.txt",
+      "title": "rec 00004",
+      "content_hash": "181a5b8673afe88dba9e41bcc634176932400d7c96cc8bd29e72006477b833db",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.078975"
+    },
+    "doc_b169e145e0c5": {
+      "id": "doc_b169e145e0c5",
+      "path": "benchmark_data/corpus_small/rec_00038.txt",
+      "title": "rec 00038",
+      "content_hash": "d2f19be797c55b3afebcf0bd3b768367ccabb7bbe3d7a65e77ad7bd888983a48",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.107904"
+    },
+    "doc_5c7feac5f8e9": {
+      "id": "doc_5c7feac5f8e9",
+      "path": "benchmark_data/corpus_small/rec_00039.txt",
+      "title": "rec 00039",
+      "content_hash": "22a193aea63741d253ce940540322664d488f2e1d1f97a3f4ff8227ff8f6700d",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.137046"
+    },
+    "doc_2ebda0346f0b": {
+      "id": "doc_2ebda0346f0b",
+      "path": "benchmark_data/corpus_small/rec_00005.txt",
+      "title": "rec 00005",
+      "content_hash": "22b43f044cafd5dda970dd4f35a4ceb42833b7d692f60b9587464e29546a0fab",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.166052"
+    },
+    "doc_7b7e4e58deca": {
+      "id": "doc_7b7e4e58deca",
+      "path": "benchmark_data/corpus_small/rec_00011.txt",
+      "title": "rec 00011",
+      "content_hash": "100cddf627a84608b29a2fb1e4d795f82f3207a09360d27b730e4b57335101b6",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.194619"
+    },
+    "doc_8aef7a1294de": {
+      "id": "doc_8aef7a1294de",
+      "path": "benchmark_data/corpus_small/rec_00029.txt",
+      "title": "rec 00029",
+      "content_hash": "c616bc5953e18afbc9be0a7049567b5c44c9c4cfbefa998f90545e3a41db8a91",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.222919"
+    },
+    "doc_ed0ed1b659a2": {
+      "id": "doc_ed0ed1b659a2",
+      "path": "benchmark_data/corpus_small/rec_00015.txt",
+      "title": "rec 00015",
+      "content_hash": "c3f503a650fe2622c2c3a61ab6e4ca202dce149986cb460304933d5220f258f8",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.259228"
+    },
+    "doc_78daaa3b5c1a": {
+      "id": "doc_78daaa3b5c1a",
+      "path": "benchmark_data/corpus_small/rec_00001.txt",
+      "title": "rec 00001",
+      "content_hash": "a2d78b78c4638fe35526b1993a8260c53820b76c5884c01ef025f37b1bd609f7",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.287802"
+    },
+    "doc_8fc4d9610513": {
+      "id": "doc_8fc4d9610513",
+      "path": "benchmark_data/corpus_small/rec_00000.txt",
+      "title": "rec 00000",
+      "content_hash": "14aed28c8b7f7445b507bca7d9e2e4de881548f63a379ed84e80f47e2581c8e1",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.316619"
+    },
+    "doc_72550dae56ae": {
+      "id": "doc_72550dae56ae",
+      "path": "benchmark_data/corpus_small/rec_00014.txt",
+      "title": "rec 00014",
+      "content_hash": "d5f02bf3820f5dc2c68c70286496120100c64c1b246aba2abe75cce4e2d94f3b",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.345307"
+    },
+    "doc_b170adfa9d99": {
+      "id": "doc_b170adfa9d99",
+      "path": "benchmark_data/corpus_small/rec_00028.txt",
+      "title": "rec 00028",
+      "content_hash": "a9094ec33546c995a496bd99bfd9110234d84c03c43e757828fc2ca310fe74dd",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.373791"
+    },
+    "doc_eaf30a5f3f8c": {
+      "id": "doc_eaf30a5f3f8c",
+      "path": "benchmark_data/corpus_small/rec_00002.txt",
+      "title": "rec 00002",
+      "content_hash": "89ba77b061818f68a31db61576dc5f8ca332b05ea9605cafdf9b100883b7213a",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.402292"
+    },
+    "doc_2e75c5ca92c9": {
+      "id": "doc_2e75c5ca92c9",
+      "path": "benchmark_data/corpus_small/rec_00016.txt",
+      "title": "rec 00016",
+      "content_hash": "7384b380316dfd0bcc0d30b9fba4e55cedd349a9ead0c0cbb44a7daab1de86bd",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.430494"
+    },
+    "doc_5e9612fb03a2": {
+      "id": "doc_5e9612fb03a2",
+      "path": "benchmark_data/corpus_small/rec_00017.txt",
+      "title": "rec 00017",
+      "content_hash": "f6cfc639cd82118f94b61782921015a51b60149a2f390d77bd3a0332b38bd6aa",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.463441"
+    },
+    "doc_d6c78f93fb21": {
+      "id": "doc_d6c78f93fb21",
+      "path": "benchmark_data/corpus_small/rec_00003.txt",
+      "title": "rec 00003",
+      "content_hash": "770347ea6ca097096b5337192f427ae6bcac4268d25171b4fd37ecabf4833689",
+      "chunk_count": 1,
+      "indexed_at": "2026-01-03T22:33:00.511649"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Record ID: rec_00038
+Category: partnership
+Company: Stability AI
+People: Dario Amodei
+Topic: AI safety
+Location: Toronto
+Date: 2020-09
+
+Stability AI partnered with Apple on AI safety. Dario Amodei and team in Toronto will lead the collaboration on large language models.

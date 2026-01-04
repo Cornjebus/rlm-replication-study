@@ -1,0 +1,9 @@
+Record ID: rec_00013
+Category: hiring
+Company: MongoDB
+People: Nick Bostrom, Percy Liang
+Topic: natural language processing
+Location: Austin
+Date: 2021-09
+
+MongoDB hired Nick Bostrom to lead natural language processing efforts. The new role is based in Austin and focuses on AI safety.

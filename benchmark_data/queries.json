@@ -1,0 +1,526 @@
+[
+  {
+    "id": "q_000",
+    "question": "How many records mention Robinhood?",
+    "query_type": "count",
+    "answer": "31",
+    "reasoning_steps": [
+      "Filter records where company == 'Robinhood'",
+      "Count: 31"
+    ]
+  },
+  {
+    "id": "q_001",
+    "question": "How many records discuss AI safety?",
+    "query_type": "count",
+    "answer": "71",
+    "reasoning_steps": [
+      "Filter records where topic == 'AI safety'",
+      "Count: 71"
+    ]
+  },
+  {
+    "id": "q_002",
+    "question": "How many acquisition records are there?",
+    "query_type": "count",
+    "answer": "133",
+    "reasoning_steps": [
+      "Filter records where category == 'acquisition'",
+      "Count: 133"
+    ]
+  },
+  {
+    "id": "q_003",
+    "question": "What companies has Sergey Levine been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Sergey Levine",
+      "Found 109 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'Anthropic', 'Stripe', 'MongoDB', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Apple', 'Microsoft']"
+    ]
+  },
+  {
+    "id": "q_004",
+    "question": "Which company has the most research records?",
+    "query_type": "aggregate",
+    "answer": "Tesla",
+    "reasoning_steps": [
+      "Filter to category == 'research'",
+      "Group by company and count",
+      "Top company: Tesla with 9 records"
+    ]
+  },
+  {
+    "id": "q_005",
+    "question": "How many records are from Shanghai?",
+    "query_type": "count",
+    "answer": "60",
+    "reasoning_steps": [
+      "Filter records where location == 'Shanghai'",
+      "Count: 60"
+    ]
+  },
+  {
+    "id": "q_006",
+    "question": "How many research records are there?",
+    "query_type": "count",
+    "answer": "147",
+    "reasoning_steps": [
+      "Filter records where category == 'research'",
+      "Count: 147"
+    ]
+  },
+  {
+    "id": "q_007",
+    "question": "What companies has Fei-Fei Li been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Fei-Fei Li",
+      "Found 98 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Cohere', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'Anthropic', 'MongoDB', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_008",
+    "question": "What companies has Fei-Fei Li been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Fei-Fei Li",
+      "Found 98 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Cohere', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'Anthropic', 'MongoDB', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_009",
+    "question": "What companies has Ilya Sutskever been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Ilya Sutskever",
+      "Found 96 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Cohere', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'MongoDB', 'Stripe', 'Anthropic', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_010",
+    "question": "How many product records are there?",
+    "query_type": "count",
+    "answer": "139",
+    "reasoning_steps": [
+      "Filter records where category == 'product'",
+      "Count: 139"
+    ]
+  },
+  {
+    "id": "q_011",
+    "question": "Which company has the most research records?",
+    "query_type": "aggregate",
+    "answer": "Tesla",
+    "reasoning_steps": [
+      "Filter to category == 'research'",
+      "Group by company and count",
+      "Top company: Tesla with 9 records"
+    ]
+  },
+  {
+    "id": "q_012",
+    "question": "What companies has Fei-Fei Li been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Fei-Fei Li",
+      "Found 98 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Cohere', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'Anthropic', 'MongoDB', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_013",
+    "question": "How many policy records are there?",
+    "query_type": "count",
+    "answer": "170",
+    "reasoning_steps": [
+      "Filter records where category == 'policy'",
+      "Count: 170"
+    ]
+  },
+  {
+    "id": "q_014",
+    "question": "Which company has the most research records?",
+    "query_type": "aggregate",
+    "answer": "Tesla",
+    "reasoning_steps": [
+      "Filter to category == 'research'",
+      "Group by company and count",
+      "Top company: Tesla with 9 records"
+    ]
+  },
+  {
+    "id": "q_015",
+    "question": "How many records are from London?",
+    "query_type": "count",
+    "answer": "56",
+    "reasoning_steps": [
+      "Filter records where location == 'London'",
+      "Count: 56"
+    ]
+  },
+  {
+    "id": "q_016",
+    "question": "How many records discuss AI safety?",
+    "query_type": "count",
+    "answer": "71",
+    "reasoning_steps": [
+      "Filter records where topic == 'AI safety'",
+      "Count: 71"
+    ]
+  },
+  {
+    "id": "q_017",
+    "question": "What companies has Yoshua Bengio been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Yoshua Bengio",
+      "Found 118 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Coinbase', 'Plaid', 'OpenAI', 'Nvidia', 'Palantir', 'Stripe', 'Meta', 'MongoDB', 'Anthropic', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_018",
+    "question": "Which company has the most funding records?",
+    "query_type": "aggregate",
+    "answer": "SpaceX",
+    "reasoning_steps": [
+      "Filter to category == 'funding'",
+      "Group by company and count",
+      "Top company: SpaceX with 11 records"
+    ]
+  },
+  {
+    "id": "q_019",
+    "question": "Which company has the most partnership records?",
+    "query_type": "aggregate",
+    "answer": "SpaceX",
+    "reasoning_steps": [
+      "Filter to category == 'partnership'",
+      "Group by company and count",
+      "Top company: SpaceX with 10 records"
+    ]
+  },
+  {
+    "id": "q_020",
+    "question": "How many acquisition records are there?",
+    "query_type": "count",
+    "answer": "133",
+    "reasoning_steps": [
+      "Filter records where category == 'acquisition'",
+      "Count: 133"
+    ]
+  },
+  {
+    "id": "q_021",
+    "question": "Which company has the most policy records?",
+    "query_type": "aggregate",
+    "answer": "Square",
+    "reasoning_steps": [
+      "Filter to category == 'policy'",
+      "Group by company and count",
+      "Top company: Square with 12 records"
+    ]
+  },
+  {
+    "id": "q_022",
+    "question": "Which company has the most hiring records?",
+    "query_type": "aggregate",
+    "answer": "Hugging Face",
+    "reasoning_steps": [
+      "Filter to category == 'hiring'",
+      "Group by company and count",
+      "Top company: Hugging Face with 10 records"
+    ]
+  },
+  {
+    "id": "q_023",
+    "question": "Which company has the most product records?",
+    "query_type": "aggregate",
+    "answer": "Amazon",
+    "reasoning_steps": [
+      "Filter to category == 'product'",
+      "Group by company and count",
+      "Top company: Amazon with 13 records"
+    ]
+  },
+  {
+    "id": "q_024",
+    "question": "What companies has Nick Bostrom been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Nick Bostrom",
+      "Found 114 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'MongoDB', 'Anthropic', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_025",
+    "question": "Which company has the most partnership records?",
+    "query_type": "aggregate",
+    "answer": "SpaceX",
+    "reasoning_steps": [
+      "Filter to category == 'partnership'",
+      "Group by company and count",
+      "Top company: SpaceX with 10 records"
+    ]
+  },
+  {
+    "id": "q_026",
+    "question": "How many records discuss natural language processing?",
+    "query_type": "count",
+    "answer": "61",
+    "reasoning_steps": [
+      "Filter records where topic == 'natural language processing'",
+      "Count: 61"
+    ]
+  },
+  {
+    "id": "q_027",
+    "question": "How many records discuss AI alignment?",
+    "query_type": "count",
+    "answer": "60",
+    "reasoning_steps": [
+      "Filter records where topic == 'AI alignment'",
+      "Count: 60"
+    ]
+  },
+  {
+    "id": "q_028",
+    "question": "What companies has Nick Bostrom been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Nick Bostrom",
+      "Found 114 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'MongoDB', 'Anthropic', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_029",
+    "question": "How many records mention MongoDB?",
+    "query_type": "count",
+    "answer": "44",
+    "reasoning_steps": [
+      "Filter records where company == 'MongoDB'",
+      "Count: 44"
+    ]
+  },
+  {
+    "id": "q_030",
+    "question": "What companies has Dario Amodei been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Dario Amodei",
+      "Found 90 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Stability AI', 'Affirm', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Stripe', 'Meta', 'MongoDB', 'Anthropic', 'SpaceX', 'Databricks', 'Robinhood', 'Google', 'Tesla', 'Amazon', 'Apple', 'Microsoft']"
+    ]
+  },
+  {
+    "id": "q_031",
+    "question": "How many records mention Apple?",
+    "query_type": "count",
+    "answer": "41",
+    "reasoning_steps": [
+      "Filter records where company == 'Apple'",
+      "Count: 41"
+    ]
+  },
+  {
+    "id": "q_032",
+    "question": "How many policy records are there?",
+    "query_type": "count",
+    "answer": "170",
+    "reasoning_steps": [
+      "Filter records where category == 'policy'",
+      "Count: 170"
+    ]
+  },
+  {
+    "id": "q_033",
+    "question": "Which company has the most acquisition records?",
+    "query_type": "aggregate",
+    "answer": "Stripe",
+    "reasoning_steps": [
+      "Filter to category == 'acquisition'",
+      "Group by company and count",
+      "Top company: Stripe with 10 records"
+    ]
+  },
+  {
+    "id": "q_034",
+    "question": "How many records mention Coinbase?",
+    "query_type": "count",
+    "answer": "41",
+    "reasoning_steps": [
+      "Filter records where company == 'Coinbase'",
+      "Count: 41"
+    ]
+  },
+  {
+    "id": "q_035",
+    "question": "How many records mention Cohere?",
+    "query_type": "count",
+    "answer": "36",
+    "reasoning_steps": [
+      "Filter records where company == 'Cohere'",
+      "Count: 36"
+    ]
+  },
+  {
+    "id": "q_036",
+    "question": "How many policy records are there?",
+    "query_type": "count",
+    "answer": "170",
+    "reasoning_steps": [
+      "Filter records where category == 'policy'",
+      "Count: 170"
+    ]
+  },
+  {
+    "id": "q_037",
+    "question": "Which company has the most research records?",
+    "query_type": "aggregate",
+    "answer": "Tesla",
+    "reasoning_steps": [
+      "Filter to category == 'research'",
+      "Group by company and count",
+      "Top company: Tesla with 9 records"
+    ]
+  },
+  {
+    "id": "q_038",
+    "question": "What companies has Percy Liang been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Percy Liang",
+      "Found 99 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Stripe', 'MongoDB', 'Meta', 'Anthropic', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_039",
+    "question": "How many records discuss recommendation systems?",
+    "query_type": "count",
+    "answer": "61",
+    "reasoning_steps": [
+      "Filter records where topic == 'recommendation systems'",
+      "Count: 61"
+    ]
+  },
+  {
+    "id": "q_040",
+    "question": "How many records are from Paris?",
+    "query_type": "count",
+    "answer": "51",
+    "reasoning_steps": [
+      "Filter records where location == 'Paris'",
+      "Count: 51"
+    ]
+  },
+  {
+    "id": "q_041",
+    "question": "How many records discuss machine learning?",
+    "query_type": "count",
+    "answer": "70",
+    "reasoning_steps": [
+      "Filter records where topic == 'machine learning'",
+      "Count: 70"
+    ]
+  },
+  {
+    "id": "q_042",
+    "question": "What companies has Percy Liang been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Percy Liang",
+      "Found 99 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Stripe', 'MongoDB', 'Meta', 'Anthropic', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_043",
+    "question": "What companies has Nick Bostrom been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Microsoft, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Nick Bostrom",
+      "Found 114 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Meta', 'MongoDB', 'Anthropic', 'Stripe', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Microsoft', 'Apple']"
+    ]
+  },
+  {
+    "id": "q_044",
+    "question": "How many records mention Snowflake?",
+    "query_type": "count",
+    "answer": "37",
+    "reasoning_steps": [
+      "Filter records where company == 'Snowflake'",
+      "Count: 37"
+    ]
+  },
+  {
+    "id": "q_045",
+    "question": "How many records are from Montreal?",
+    "query_type": "count",
+    "answer": "55",
+    "reasoning_steps": [
+      "Filter records where location == 'Montreal'",
+      "Count: 55"
+    ]
+  },
+  {
+    "id": "q_046",
+    "question": "How many records are from London?",
+    "query_type": "count",
+    "answer": "56",
+    "reasoning_steps": [
+      "Filter records where location == 'London'",
+      "Count: 56"
+    ]
+  },
+  {
+    "id": "q_047",
+    "question": "How many records are from Paris?",
+    "query_type": "count",
+    "answer": "51",
+    "reasoning_steps": [
+      "Filter records where location == 'Paris'",
+      "Count: 51"
+    ]
+  },
+  {
+    "id": "q_048",
+    "question": "How many records mention Stripe?",
+    "query_type": "count",
+    "answer": "47",
+    "reasoning_steps": [
+      "Filter records where company == 'Stripe'",
+      "Count: 47"
+    ]
+  },
+  {
+    "id": "q_049",
+    "question": "What companies has Chelsea Finn been involved with?",
+    "query_type": "multi_hop",
+    "answer": "Affirm, Amazon, Anthropic, Apple, Cohere, Coinbase, Databricks, DeepMind, Google, Hugging Face, Meta, Mistral, MongoDB, Nvidia, OpenAI, Palantir, Plaid, Robinhood, Snowflake, SpaceX, Square, Stability AI, Stripe, Tesla",
+    "reasoning_steps": [
+      "Find all records mentioning Chelsea Finn",
+      "Found 86 records",
+      "Extract unique companies: ['Snowflake', 'DeepMind', 'Square', 'Mistral', 'Affirm', 'Stability AI', 'Cohere', 'Plaid', 'Coinbase', 'OpenAI', 'Nvidia', 'Palantir', 'Stripe', 'MongoDB', 'Anthropic', 'Meta', 'SpaceX', 'Databricks', 'Robinhood', 'Hugging Face', 'Google', 'Tesla', 'Amazon', 'Apple']"
+    ]
+  }
+]

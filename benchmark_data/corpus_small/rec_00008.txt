@@ -1,0 +1,9 @@
+Record ID: rec_00008
+Category: hiring
+Company: Hugging Face
+People: Chris Manning
+Topic: natural language processing
+Location: Boston
+Date: 2025-05
+
+Hugging Face hired Chris Manning to lead natural language processing efforts. The new role is based in Boston and focuses on AI alignment.

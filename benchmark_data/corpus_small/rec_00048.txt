@@ -1,0 +1,9 @@
+Record ID: rec_00048
+Category: hiring
+Company: Stability AI
+People: Fei-Fei Li, Andrew Ng
+Topic: transformers
+Location: Toronto
+Date: 2023-01
+
+Stability AI hired Fei-Fei Li to lead transformers efforts. The new role is based in Toronto and focuses on recommendation systems.

@@ -1,0 +1,9 @@
+Record ID: rec_00037
+Category: hiring
+Company: Stability AI
+People: Andrew Ng
+Topic: robotics
+Location: Montreal
+Date: 2025-11
+
+Stability AI hired Andrew Ng to lead robotics efforts. The new role is based in Montreal and focuses on computer vision.

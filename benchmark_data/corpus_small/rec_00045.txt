@@ -1,0 +1,9 @@
+Record ID: rec_00045
+Category: research
+Company: Hugging Face
+People: Max Tegmark, Geoffrey Hinton, Sergey Levine
+Topic: transformers
+Location: New York
+Date: 2022-06
+
+Hugging Face researchers including Max Tegmark, Geoffrey Hinton, Sergey Levine published new work on transformers. The research, conducted at their New York office, introduces novel approaches to speech recognition.

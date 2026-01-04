@@ -1,0 +1,9 @@
+Record ID: rec_00032
+Category: funding
+Company: SpaceX
+People: Sergey Levine, Max Tegmark
+Topic: multimodal AI
+Location: Bangalore
+Date: 2021-04
+
+SpaceX raised $1610M in funding for their multimodal AI initiatives. Sergey Levine commented on the investment from their Bangalore headquarters.

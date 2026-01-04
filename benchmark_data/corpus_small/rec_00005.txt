@@ -1,0 +1,9 @@
+Record ID: rec_00005
+Category: funding
+Company: OpenAI
+People: Chelsea Finn, Max Tegmark, Yann LeCun
+Topic: speech recognition
+Location: Berlin
+Date: 2020-09
+
+OpenAI raised $1600M in funding for their speech recognition initiatives. Chelsea Finn commented on the investment from their Berlin headquarters.

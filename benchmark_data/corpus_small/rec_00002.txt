@@ -1,0 +1,9 @@
+Record ID: rec_00002
+Category: acquisition
+Company: Stripe
+People: Max Tegmark
+Topic: reinforcement learning
+Location: Paris
+Date: 2021-08
+
+Stripe acquired TechStartup, a reinforcement learning company. Max Tegmark announced the deal will expand their Paris operations.

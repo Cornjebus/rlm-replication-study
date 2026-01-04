@@ -1,0 +1,9 @@
+Record ID: rec_00011
+Category: research
+Company: Stability AI
+People: Andrew Ng, Demis Hassabis
+Topic: reinforcement learning
+Location: Tokyo
+Date: 2021-11
+
+Stability AI researchers including Andrew Ng, Demis Hassabis published new work on reinforcement learning. The research, conducted at their Tokyo office, introduces novel approaches to AI safety.

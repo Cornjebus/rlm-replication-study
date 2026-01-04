@@ -1,0 +1,9 @@
+Record ID: rec_00042
+Category: hiring
+Company: Stability AI
+People: Andrew Ng
+Topic: large language models
+Location: Bangalore
+Date: 2022-01
+
+Stability AI hired Andrew Ng to lead large language models efforts. The new role is based in Bangalore and focuses on neural networks.

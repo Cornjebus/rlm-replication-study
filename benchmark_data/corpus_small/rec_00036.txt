@@ -1,0 +1,9 @@
+Record ID: rec_00036
+Category: acquisition
+Company: Google
+People: Nick Bostrom, Eliezer Yudkowsky
+Topic: large language models
+Location: Tokyo
+Date: 2022-04
+
+Google acquired TechStartup, a large language models company. Nick Bostrom announced the deal will expand their Tokyo operations.

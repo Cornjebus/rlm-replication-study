@@ -1,0 +1,9 @@
+Record ID: rec_00004
+Category: policy
+Company: Stability AI
+People: Demis Hassabis
+Topic: robotics
+Location: Toronto
+Date: 2022-06
+
+Stability AI's Demis Hassabis testified on robotics policy. The Toronto-based executive discussed implications for diffusion models.

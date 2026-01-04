@@ -1,0 +1,9 @@
+Record ID: rec_00009
+Category: hiring
+Company: Square
+People: Eliezer Yudkowsky
+Topic: multimodal AI
+Location: Seattle
+Date: 2024-12
+
+Square hired Eliezer Yudkowsky to lead multimodal AI efforts. The new role is based in Seattle and focuses on reinforcement learning.

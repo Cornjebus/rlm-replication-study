@@ -1,0 +1,9 @@
+Record ID: rec_00023
+Category: research
+Company: DeepMind
+People: Demis Hassabis
+Topic: natural language processing
+Location: San Francisco
+Date: 2024-09
+
+DeepMind researchers including Demis Hassabis published new work on natural language processing. The research, conducted at their San Francisco office, introduces novel approaches to reinforcement learning.

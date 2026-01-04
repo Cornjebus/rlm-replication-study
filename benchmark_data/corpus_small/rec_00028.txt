@@ -1,0 +1,9 @@
+Record ID: rec_00028
+Category: hiring
+Company: Square
+People: Sam Altman
+Topic: robotics
+Location: Tokyo
+Date: 2020-04
+
+Square hired Sam Altman to lead robotics efforts. The new role is based in Tokyo and focuses on reinforcement learning.

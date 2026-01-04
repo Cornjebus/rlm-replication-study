@@ -1,0 +1,9 @@
+Record ID: rec_00039
+Category: funding
+Company: Meta
+People: Demis Hassabis, Fei-Fei Li
+Topic: natural language processing
+Location: Shanghai
+Date: 2021-08
+
+Meta raised $4360M in funding for their natural language processing initiatives. Demis Hassabis commented on the investment from their Shanghai headquarters.

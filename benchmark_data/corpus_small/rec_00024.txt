@@ -1,0 +1,9 @@
+Record ID: rec_00024
+Category: acquisition
+Company: DeepMind
+People: Demis Hassabis
+Topic: AI alignment
+Location: New York
+Date: 2021-02
+
+DeepMind acquired AIStartup, a AI alignment company. Demis Hassabis announced the deal will expand their New York operations.

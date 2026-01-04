@@ -1,0 +1,9 @@
+Record ID: rec_00015
+Category: research
+Company: Nvidia
+People: Eliezer Yudkowsky, Chelsea Finn
+Topic: large language models
+Location: Beijing
+Date: 2024-01
+
+Nvidia researchers including Eliezer Yudkowsky, Chelsea Finn published new work on large language models. The research, conducted at their Beijing office, introduces novel approaches to multimodal AI.

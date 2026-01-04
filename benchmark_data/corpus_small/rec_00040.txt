@@ -1,0 +1,9 @@
+Record ID: rec_00040
+Category: acquisition
+Company: Robinhood
+People: Eliezer Yudkowsky, Stuart Russell
+Topic: machine learning
+Location: Shanghai
+Date: 2025-02
+
+Robinhood acquired AIStartup, a machine learning company. Eliezer Yudkowsky announced the deal will expand their Shanghai operations.

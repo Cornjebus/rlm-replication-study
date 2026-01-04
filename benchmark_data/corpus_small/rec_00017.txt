@@ -1,0 +1,9 @@
+Record ID: rec_00017
+Category: research
+Company: Plaid
+People: Andrew Ng, Stuart Russell, Ilya Sutskever
+Topic: large language models
+Location: Toronto
+Date: 2025-05
+
+Plaid researchers including Andrew Ng, Stuart Russell, Ilya Sutskever published new work on large language models. The research, conducted at their Toronto office, introduces novel approaches to recommendation systems.

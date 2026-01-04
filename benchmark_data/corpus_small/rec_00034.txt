@@ -1,0 +1,9 @@
+Record ID: rec_00034
+Category: policy
+Company: Databricks
+People: Sam Altman
+Topic: large language models
+Location: London
+Date: 2021-02
+
+Databricks's Sam Altman testified on large language models policy. The London-based executive discussed implications for diffusion models.

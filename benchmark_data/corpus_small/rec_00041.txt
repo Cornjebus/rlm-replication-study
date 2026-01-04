@@ -1,0 +1,9 @@
+Record ID: rec_00041
+Category: funding
+Company: Microsoft
+People: Max Tegmark
+Topic: transformers
+Location: Beijing
+Date: 2022-10
+
+Microsoft raised $1170M in funding for their transformers initiatives. Max Tegmark commented on the investment from their Beijing headquarters.

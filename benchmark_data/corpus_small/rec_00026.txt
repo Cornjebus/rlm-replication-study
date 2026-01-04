@@ -1,0 +1,9 @@
+Record ID: rec_00026
+Category: acquisition
+Company: Meta
+People: Nick Bostrom, Eliezer Yudkowsky, Pieter Abbeel
+Topic: reinforcement learning
+Location: Bangalore
+Date: 2023-04
+
+Meta acquired AIStartup, a reinforcement learning company. Nick Bostrom announced the deal will expand their Bangalore operations.

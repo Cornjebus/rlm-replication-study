@@ -1,0 +1,9 @@
+Record ID: rec_00019
+Category: research
+Company: Stripe
+People: Pieter Abbeel, Dario Amodei
+Topic: neural networks
+Location: Singapore
+Date: 2022-04
+
+Stripe researchers including Pieter Abbeel, Dario Amodei published new work on neural networks. The research, conducted at their Singapore office, introduces novel approaches to machine learning.

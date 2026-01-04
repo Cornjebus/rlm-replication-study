@@ -1,0 +1,9 @@
+Record ID: rec_00014
+Category: research
+Company: Affirm
+People: Yann LeCun
+Topic: transformers
+Location: Seattle
+Date: 2025-07
+
+Affirm researchers including Yann LeCun published new work on transformers. The research, conducted at their Seattle office, introduces novel approaches to diffusion models.

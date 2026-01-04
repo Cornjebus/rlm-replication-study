@@ -1,0 +1,9 @@
+Record ID: rec_00010
+Category: product
+Company: SpaceX
+People: Andrew Ng, Max Tegmark
+Topic: reinforcement learning
+Location: Tokyo
+Date: 2020-04
+
+SpaceX announced a new reinforcement learning product. Andrew Ng led the development team based in Tokyo. The product aims to improve recommendation systems capabilities.

@@ -1,0 +1,9 @@
+Record ID: rec_00000
+Category: hiring
+Company: Microsoft
+People: Andrew Ng
+Topic: reinforcement learning
+Location: Austin
+Date: 2021-12
+
+Microsoft hired Andrew Ng to lead reinforcement learning efforts. The new role is based in Austin and focuses on neural networks.

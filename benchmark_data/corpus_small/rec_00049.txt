@@ -1,0 +1,9 @@
+Record ID: rec_00049
+Category: partnership
+Company: DeepMind
+People: Chelsea Finn
+Topic: natural language processing
+Location: Shanghai
+Date: 2021-04
+
+DeepMind partnered with Anthropic on natural language processing. Chelsea Finn and team in Shanghai will lead the collaboration on multimodal AI.

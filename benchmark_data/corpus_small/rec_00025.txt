@@ -1,0 +1,9 @@
+Record ID: rec_00025
+Category: policy
+Company: Stability AI
+People: Stuart Russell
+Topic: reinforcement learning
+Location: Beijing
+Date: 2025-08
+
+Stability AI's Stuart Russell testified on reinforcement learning policy. The Beijing-based executive discussed implications for reinforcement learning.

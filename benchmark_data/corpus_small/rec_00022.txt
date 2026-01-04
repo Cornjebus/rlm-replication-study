@@ -1,0 +1,9 @@
+Record ID: rec_00022
+Category: acquisition
+Company: Affirm
+People: Andrej Karpathy, Yoshua Bengio, Percy Liang
+Topic: multimodal AI
+Location: Singapore
+Date: 2023-09
+
+Affirm acquired MLStartup, a multimodal AI company. Andrej Karpathy announced the deal will expand their Singapore operations.

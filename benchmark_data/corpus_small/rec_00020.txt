@@ -1,0 +1,9 @@
+Record ID: rec_00020
+Category: product
+Company: MongoDB
+People: Demis Hassabis
+Topic: AI alignment
+Location: Bangalore
+Date: 2020-09
+
+MongoDB announced a new AI alignment product. Demis Hassabis led the development team based in Bangalore. The product aims to improve autonomous systems capabilities.

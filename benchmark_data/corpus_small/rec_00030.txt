@@ -1,0 +1,9 @@
+Record ID: rec_00030
+Category: research
+Company: SpaceX
+People: Yann LeCun, Sam Altman, Max Tegmark
+Topic: recommendation systems
+Location: San Francisco
+Date: 2020-04
+
+SpaceX researchers including Yann LeCun, Sam Altman, Max Tegmark published new work on recommendation systems. The research, conducted at their San Francisco office, introduces novel approaches to transformers.
