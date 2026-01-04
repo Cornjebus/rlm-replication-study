@@ -6,7 +6,7 @@
 
 ## Abstract
 
-We present a replication study of Recursive Language Models (RLM) as described in Zhang et al. (2024), demonstrating that the core limitations identified in the original work—brittle termination, unbounded recursive calls, and re-verification failures—stem from the absence of explicit state management and goal conditions. We propose an alternative approach using pre-indexed knowledge graphs with stateful traversal that achieves **100% accuracy** on OOLONG-style benchmarks compared to RLM's reported 23-58% F1, while requiring **zero LLM calls at query time** versus RLM's 10-1000+ calls per query. Our results suggest that the "recursive" framing obscures a simpler truth: long-context reasoning benefits more from proper data structures and termination logic than from repeated LLM invocations. All code and data are provided for independent replication.
+We present a replication study of Recursive Language Models (RLM) as described in Zhang et al. (2024), demonstrating that the core limitations identified in the original work—brittle termination, unbounded recursive calls, and re-verification failures—stem from the absence of explicit state management and goal conditions. We propose an alternative approach using pre-indexed knowledge graphs with stateful traversal that achieves **87.8% accuracy on the real OOLONG dataset** (490/558 examples) compared to RLM's reported 23-58% F1, while requiring **zero LLM calls at query time** versus RLM's 10-1000+ calls per query. On the trec_coarse subset, we achieve **99.2% accuracy** (248/250). Our results suggest that the "recursive" framing obscures a simpler truth: OOLONG is fundamentally an aggregation benchmark that benefits more from proper data structures (Python's `Counter()`) than from repeated LLM invocations. All code and data are provided for independent replication.
 
 ---
 
@@ -37,10 +37,11 @@ This approach eliminates the three failure modes documented in the RLM paper by 
 
 ### 1.3 Contributions
 
-1. A replication framework for OOLONG-style benchmarks
+1. A replication framework tested on the **real OOLONG dataset** (not just synthetic data)
 2. A stateful knowledge graph query engine with provable termination
-3. Empirical comparison showing 100% accuracy vs. RLM's 23-58% F1
-4. Complete code and data for independent verification
+3. Empirical comparison showing **87.8% accuracy** (490/558) vs. RLM's 23-58% F1
+4. Analysis showing OOLONG is fundamentally an aggregation benchmark solvable with `Counter()`
+5. Complete code and data for independent verification
 
 ---
 
@@ -181,9 +182,17 @@ return max(counts, key=counts.get)
 
 ## 4. Experimental Setup
 
-### 4.1 Benchmark Generation
+### 4.1 Datasets
 
-We created a synthetic benchmark mirroring OOLONG's structure:
+We tested on two benchmarks:
+
+**A. Real OOLONG Dataset** (from HuggingFace: `oolongbench/oolong-synth`)
+- **Validation split**: 558 examples
+- **Datasets**: trec_coarse (250), spam (308)
+- **Task types**: MOST_FREQ, LEAST_FREQ, RELATIVE_FREQ, NUMERIC_ONE_CLASS, SECOND_MOST_FREQ, REPRESENTED_N_TIMES
+- **Format**: Structured records with Date || User || Instance || Label
+
+**B. Synthetic Benchmark** (OOLONG-style, for controlled testing)
 
 - **Corpus size**: 1,000 documents
 - **Total tokens**: ~37,000 (147,441 characters)
@@ -229,17 +238,43 @@ This ensures answers are verifiable against the source data.
 
 ## 5. Results
 
-### 5.1 Overall Performance
+### 5.1 Real OOLONG Dataset Results
+
+| Metric | Skill-Based (Ours) | RLM (Paper) |
+|--------|-------------------|-------------|
+| **OOLONG Accuracy** | **87.8%** (490/558) | 23-58% F1 |
+| Query time | **0.26ms** avg | seconds-minutes |
+| LLM calls/query | **0** | 10-1000+ |
+| Termination | **Deterministic** | Brittle |
+| State tracking | **Yes** | No |
+
+#### By Dataset
+
+| Dataset | Accuracy | Notes |
+|---------|----------|-------|
+| trec_coarse | **99.2%** (248/250) | Question classification |
+| spam | **78.6%** (242/308) | SMS spam detection |
+
+#### By Task Type
+
+| Task Type | Accuracy |
+|-----------|----------|
+| MOST_FREQ | 91.6% (98/107) |
+| LEAST_FREQ | 90.3% (56/62) |
+| RELATIVE_FREQ | 91.2% (208/228) |
+| NUMERIC_ONE_CLASS | 78.3% (108/138) |
+| SECOND_MOST_FREQ | 90.9% (10/11) |
+| REPRESENTED_N_TIMES | 83.3% (10/12) |
+
+### 5.2 Synthetic Benchmark Results
 
 | Metric | Skill-Based (Ours) | RLM (Paper) |
 |--------|-------------------|-------------|
 | Accuracy | **100%** (50/50) | 23-58% F1 |
 | Query time | **0.10ms** avg | seconds-minutes |
 | LLM calls/query | **0** | 10-1000+ |
-| Termination | **Deterministic** | Brittle |
-| State tracking | **Yes** | No |
 
-### 5.2 Results by Query Type
+### 5.3 Results by Query Type (Synthetic)
 
 | Query Type | Count | Accuracy | Avg Nodes | Avg Edges | Avg Time |
 |------------|-------|----------|-----------|-----------|----------|
@@ -348,9 +383,17 @@ Our benchmark uses structured documents with explicit fields (Company, People, T
 
 We implement three query patterns (count, multi-hop, aggregate). More complex queries (temporal reasoning, negation, hypotheticals) would require additional handlers. The framework is extensible but not universal.
 
-### 7.3 Synthetic vs. Real Data
+### 7.3 Real Dataset Testing
 
-While our benchmark mirrors OOLONG's structure, it uses synthetic data. Testing on the actual OOLONG and BrowseComp-Plus datasets would strengthen the comparison but requires significant storage (100K+ documents).
+We tested on the **real OOLONG validation split** (558 examples) from HuggingFace, achieving 87.8% accuracy. The remaining 12.2% errors come from:
+- Edge cases in question parsing (complex date comparisons, nested user-label queries)
+- Format variations in the spam dataset vs. trec_coarse
+
+We did not test on BrowseComp-Plus (100K documents) due to storage constraints, but the core finding—that OOLONG is an aggregation benchmark solvable with `Counter()`—applies regardless.
+
+### 7.4 OOLONG as an Aggregation Benchmark
+
+A key finding is that OOLONG's "long-context reasoning" tasks are primarily aggregation operations (counting, frequency comparison) on structured data. This means our high accuracy comes from recognizing that **counting doesn't require an LLM**—Python's `Counter()` is sufficient. For truly unstructured reasoning tasks, our approach would require LLM-based entity extraction during indexing.
 
 ---
 
