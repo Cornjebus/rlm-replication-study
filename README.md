@@ -4,17 +4,20 @@ A replication study demonstrating that explicit state management and termination
 
 ## Results on Real OOLONG Dataset
 
-**We ran our approach against the actual OOLONG dataset** used in the RLM paper.
+**We evaluated on the trec_coarse + spam subsets of the OOLONG validation split** (558 of 1,300 examples). We restrict to these subsets because our parser targets the `Date || User || Instance || Label` format.
 
 ### Results Comparison
 
 | Metric | Skill-Based (Ours) | RLM (Zhang et al., 2024) |
 |--------|-------------------|--------------------------|
-| **OOLONG Accuracy** | **87.8%** (490/558) | 23-58% F1 |
-| Query time | **0.26ms** avg | seconds-minutes |
-| LLM calls/query | **0** | 10-1000+ |
+| **Accuracy/F1*** | **87.8%** exact-match (490/558) | 23-58% F1 |
+| Indexing cost | ~1 sec (regex parse) | None |
+| Query-time LLM calls | **0** | 10-1000+ |
+| Query latency | **0.26ms** avg | seconds-minutes |
 | Termination | **Deterministic** | Brittle |
-| State tracking | **Yes** | No |
+| Enforced state tracking | **Yes** | No |
+
+*\*We report exact-match accuracy (categorical/integer answers); RLM reports F1 (set-like answers). Comparison is directional.*
 
 ### Breakdown by Dataset
 
@@ -36,15 +39,23 @@ A replication study demonstrating that explicit state management and termination
 
 ### Why This Matters
 
-RLM reports F1 scores of 23-58% on OOLONG, requiring:
+RLM reports F1 scores of 23-58% on OOLONG variants, requiring:
 - Hundreds to thousands of LLM calls per query
 - Seconds to minutes of processing time
-- Brittle termination conditions
+- No enforced termination (model must invent stopping conditions)
 
-Our approach achieves **87.8% accuracy** with:
-- **Zero LLM calls** at query time (all LLM work done during indexing)
+Our approach achieves **87.8% exact-match accuracy** on these subsets with:
+- **Zero LLM calls** at query time (parsing is regex-based)
 - **0.26ms** average query time (6 orders of magnitude faster)
 - **Deterministic termination** (impossible to loop infinitely)
+
+### Error Analysis (68 failures)
+
+When we fail, it's due to parsing, not reasoning:
+- Timeline/date queries: 42 (not yet implemented)
+- User-label cross queries: 15 (complex join patterns)
+- Format variance: 8
+- Tie-breaking: 3
 
 ## Synthetic Benchmark Results
 
@@ -140,7 +151,7 @@ rlm_replication/
 
 ## Key Insight
 
-The RLM paper (arXiv:2512.24601v1) documents these limitations:
+The RLM paper ([arXiv:2512.24601v1](https://arxiv.org/abs/2512.24601)) documents these limitations:
 
 > "RLM(Qwen3-Coder) made hundreds to thousands of recursive sub-calls for a single simple task" (Section 3.1)
 
@@ -148,7 +159,9 @@ The RLM paper (arXiv:2512.24601v1) documents these limitations:
 
 > "Distinguishing between a final answer and a thought is brittle" (Section 5)
 
-These failures stem from **missing state management**. Our approach adds:
+These failures stem from **lack of enforced state management**. While RLM's REPL *can* store variables, any state structure must be invented by the model—and failures arise when it is not.
+
+Our approach adds **guaranteed** state tracking:
 
 ```python
 class TraversalState:
