@@ -1,0 +1,43 @@
+{
+  "dataset": "trec_coarse",
+  "total": 250,
+  "correct": 103,
+  "accuracy": 0.412,
+  "zero_rlm_queries": 0,
+  "zero_rlm_rate": 0.0,
+  "total_rlm_calls": 600,
+  "avg_rlm_calls": 2.4,
+  "avg_time_ms": 2142.438844680786,
+  "by_source": {
+    "keyword": 21650,
+    "embedding": 2650,
+    "rlm": 9700
+  },
+  "by_task": {
+    "TASK_TYPE.MOST_FREQ": {
+      "correct": 13,
+      "total": 25
+    },
+    "TASK_TYPE.LEAST_FREQ": {
+      "correct": 4,
+      "total": 16
+    },
+    "TASK_TYPE.RELATIVE_FREQ": {
+      "correct": 76,
+      "total": 140
+    },
+    "TASK_TYPE.NUMERIC_ONE_CLASS": {
+      "correct": 6,
+      "total": 65
+    },
+    "TASK_TYPE.SECOND_MOST_FREQ": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "config": {
+    "keyword_threshold": 0.5,
+    "embedding_threshold": 0.65,
+    "max_rlm_calls": 5
+  }
+}

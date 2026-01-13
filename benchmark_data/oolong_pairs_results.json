@@ -1,0 +1,12 @@
+{
+  "benchmark": "OOLONG-Pairs",
+  "our_f1": 1.0,
+  "total_queries": 50,
+  "llm_calls": 10,
+  "time_seconds": 100.3345000743866,
+  "comparison": {
+    "gpt5_rlm_f1": 0.58,
+    "qwen3_rlm_f1": 0.2311,
+    "base_f1": 0.0
+  }
+}

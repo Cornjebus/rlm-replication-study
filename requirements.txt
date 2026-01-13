@@ -1,0 +1,14 @@
+# Core dependencies
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# Embedding labeler
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# RLM labeler (optional - only needed if using LLM fallback)
+anthropic>=0.18.0
+
+# Dataset download
+datasets>=2.16.0
+requests>=2.31.0
