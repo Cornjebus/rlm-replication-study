@@ -2,7 +2,7 @@
 
 A replication study demonstrating that **explicit classification + deterministic aggregation** outperforms recursive LLM approaches on aggregation tasks.
 
-**Thesis**: *Recursion is only justified for semantic inference, not aggregation.*
+**Thesis**: *RLM is a promising approach to long-context tasks, but simpler methods may achieve better results at lower cost for certain task types.*
 
 ## Key Results (Apples-to-Apples Comparison)
 
@@ -78,7 +78,7 @@ In response to feedback from Alex Zhang (MIT/RLM paper author), we developed a h
 2. Infers labels via cheap-first strategy (keyword → embedding → RLM fallback)
 3. Runs deterministic aggregation (Counter operations)
 
-**Thesis:** *Recursion is only justified for semantic inference, not aggregation.*
+**Thesis:** *RLM is a promising approach to long-context tasks, but simpler methods may achieve better results at lower cost for certain task types.*
 
 ### Run Hybrid Benchmark
 
