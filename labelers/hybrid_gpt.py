@@ -1,43 +1,43 @@
 """
-Hybrid labeler orchestrating cheap-first strategy.
+Hybrid labeler with GPT-5 as the RLM fallback.
 
 Order of operations:
 1. Keyword matching (free)
 2. Embedding similarity (cheap, local)
-3. RLM inference (expensive, API calls)
+3. GPT-5 inference (expensive, API calls)
 """
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Optional
 from .base import LabelResult
 from .keyword import KeywordLabeler
 from .embedding import EmbeddingLabeler
-from .rlm import RLMLabeler
+from .gpt import GPTLabeler
 
 
 @dataclass
-class HybridLabelerConfig:
-    """Configuration for hybrid labeling."""
+class HybridGPTLabelerConfig:
+    """Configuration for hybrid GPT labeling."""
     # Confidence thresholds
     keyword_threshold: float = 0.5      # Accept keyword if confidence >= this
     embedding_threshold: float = 0.65   # Accept embedding if confidence >= this
 
-    # RLM settings
-    batch_size: int = 20                 # Batch RLM calls for efficiency
-    max_rlm_calls_per_query: int = 10    # Cap RLM calls per query
+    # GPT settings
+    batch_size: int = 20                 # Batch GPT calls for efficiency
+    max_gpt_calls_per_query: int = 10    # Cap GPT calls per query
 
     # Model settings
     embedding_model: str = "all-MiniLM-L6-v2"
-    rlm_model: str = "claude-haiku-4-5-20251001"  # NEVER use sonnet 4!
+    gpt_model: str = "gpt-5-chat-latest"
 
 
 @dataclass
-class HybridLabelerStats:
-    """Statistics from hybrid labeling run."""
+class HybridGPTLabelerStats:
+    """Statistics from hybrid GPT labeling run."""
     keyword_hits: int = 0
     embedding_hits: int = 0
-    rlm_calls: int = 0
-    rlm_records_labeled: int = 0
+    gpt_calls: int = 0
+    gpt_records_labeled: int = 0
     total_records: int = 0
 
     @property
@@ -51,40 +51,35 @@ class HybridLabelerStats:
         return self.embedding_hits / self.total_records if self.total_records else 0
 
     @property
-    def rlm_rate(self) -> float:
-        """Fraction of records labeled by RLM."""
-        return self.rlm_records_labeled / self.total_records if self.total_records else 0
-
-    @property
-    def zero_rlm(self) -> bool:
-        """Whether no RLM calls were made."""
-        return self.rlm_calls == 0
+    def gpt_rate(self) -> float:
+        """Fraction of records labeled by GPT."""
+        return self.gpt_records_labeled / self.total_records if self.total_records else 0
 
 
-class HybridLabeler:
+class HybridGPTLabeler:
     """
-    Orchestrates cheap-first labeling strategy.
+    Orchestrates cheap-first labeling strategy with GPT-5 fallback.
 
     Tries labelers in order of cost:
     1. Keyword (free)
     2. Embedding (cheap)
-    3. RLM (expensive)
+    3. GPT-5 (expensive)
     """
 
-    def __init__(self, config: Optional[HybridLabelerConfig] = None):
+    def __init__(self, config: Optional[HybridGPTLabelerConfig] = None):
         """
-        Initialize hybrid labeler with config.
+        Initialize hybrid GPT labeler with config.
 
         Args:
             config: Optional configuration, uses defaults if not provided
         """
-        self.config = config or HybridLabelerConfig()
-        self.stats = HybridLabelerStats()
+        self.config = config or HybridGPTLabelerConfig()
+        self.stats = HybridGPTLabelerStats()
 
         # Initialize labelers lazily
         self._keyword = None
         self._embedding = None
-        self._rlm = None
+        self._gpt = None
 
     @property
     def keyword(self) -> KeywordLabeler:
@@ -101,11 +96,11 @@ class HybridLabeler:
         return self._embedding
 
     @property
-    def rlm(self) -> RLMLabeler:
-        """Lazy-load RLM labeler."""
-        if self._rlm is None:
-            self._rlm = RLMLabeler(model=self.config.rlm_model)
-        return self._rlm
+    def gpt(self) -> GPTLabeler:
+        """Lazy-load GPT labeler."""
+        if self._gpt is None:
+            self._gpt = GPTLabeler(model=self.config.gpt_model)
+        return self._gpt
 
     def label_records(self, records: list[dict], vocabulary: list[str]) -> list[dict]:
         """
@@ -124,7 +119,7 @@ class HybridLabeler:
             Same records list with labels added
         """
         needs_embedding = []
-        needs_rlm = []
+        needs_gpt = []
 
         # Phase 1: Try keyword matching (free)
         for record in records:
@@ -153,25 +148,25 @@ class HybridLabeler:
                     record['label_source'] = 'embedding'
                     self.stats.embedding_hits += 1
                 else:
-                    needs_rlm.append(record)
+                    needs_gpt.append(record)
 
-        # Phase 3: RLM for remaining (expensive, batched)
-        if needs_rlm:
-            self._batch_rlm_label(needs_rlm, vocabulary)
+        # Phase 3: GPT-5 for remaining (expensive, batched)
+        if needs_gpt:
+            self._batch_gpt_label(needs_gpt, vocabulary)
 
         return records
 
-    def _batch_rlm_label(self, records: list[dict], vocabulary: list[str]):
+    def _batch_gpt_label(self, records: list[dict], vocabulary: list[str]):
         """
-        Batch RLM calls to minimize API usage.
+        Batch GPT calls to minimize API usage.
 
-        Respects max_rlm_calls_per_query cap.
+        Respects max_gpt_calls_per_query cap.
         """
         batch_size = self.config.batch_size
 
         for i in range(0, len(records), batch_size):
             # Check if we've hit the cap
-            if self.stats.rlm_calls >= self.config.max_rlm_calls_per_query:
+            if self.stats.gpt_calls >= self.config.max_gpt_calls_per_query:
                 # Hit cap - use best guess from embedding
                 for record in records[i:]:
                     emb_result = self.embedding.label(record['instance'], vocabulary)
@@ -183,9 +178,9 @@ class HybridLabeler:
             batch = records[i:i + batch_size]
             instances = [r['instance'] for r in batch]
 
-            results = self.rlm.label_batch(instances, vocabulary)
-            self.stats.rlm_calls += 1
-            self.stats.rlm_records_labeled += len(batch)
+            results = self.gpt.label_batch(instances, vocabulary)
+            self.stats.gpt_calls += 1
+            self.stats.gpt_records_labeled += len(batch)
 
             for record, result in zip(batch, results):
                 record['label'] = result.label
@@ -194,6 +189,6 @@ class HybridLabeler:
 
     def reset_stats(self):
         """Reset statistics for new run."""
-        self.stats = HybridLabelerStats()
-        if self._rlm:
-            self._rlm.call_count = 0
+        self.stats = HybridGPTLabelerStats()
+        if self._gpt:
+            self._gpt.call_count = 0

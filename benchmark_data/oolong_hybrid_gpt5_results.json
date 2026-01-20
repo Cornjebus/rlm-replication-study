@@ -1,0 +1,34 @@
+{
+  "score": 59.58638241909914,
+  "exact_match": 49.2,
+  "gpt_calls": 1,
+  "gpt_model": "gpt-5-chat-latest",
+  "method": "hybrid (keyword -> embedding -> GPT-5)",
+  "labeler_stats": {
+    "keyword_total": 21650,
+    "embedding_total": 2650,
+    "gpt_total": 11600
+  },
+  "by_task": {
+    "TASK_TYPE.MOST_FREQ": {
+      "score": 44.0,
+      "n": 25
+    },
+    "TASK_TYPE.LEAST_FREQ": {
+      "score": 56.25,
+      "n": 16
+    },
+    "TASK_TYPE.RELATIVE_FREQ": {
+      "score": 66.42857142857143,
+      "n": 140
+    },
+    "TASK_TYPE.NUMERIC_ONE_CLASS": {
+      "score": 49.17839391961206,
+      "n": 65
+    },
+    "TASK_TYPE.SECOND_MOST_FREQ": {
+      "score": 100.0,
+      "n": 4
+    }
+  }
+}

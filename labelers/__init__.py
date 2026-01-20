@@ -11,6 +11,7 @@ from .base import Labeler, LabelResult
 from .keyword import KeywordLabeler
 from .embedding import EmbeddingLabeler
 from .rlm import RLMLabeler
+from .gpt import GPTLabeler
 from .hybrid import HybridLabeler, HybridLabelerConfig, HybridLabelerStats
 
 __all__ = [
@@ -19,6 +20,7 @@ __all__ = [
     'KeywordLabeler',
     'EmbeddingLabeler',
     'RLMLabeler',
+    'GPTLabeler',
     'HybridLabeler',
     'HybridLabelerConfig',
     'HybridLabelerStats',

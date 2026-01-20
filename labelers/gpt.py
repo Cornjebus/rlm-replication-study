@@ -1,8 +1,7 @@
 """
-RLM-style labeler using LLM API calls.
+GPT-based labeler for apples-to-apples comparison with RLM paper.
 
-This is the fallback labeler - only used when cheap methods fail.
-Uses bounded calls with explicit termination (no infinite recursion).
+RLM paper used GPT-5 and achieved 56.50% on OOLONG.
 """
 
 import os
@@ -11,25 +10,20 @@ from typing import Optional
 from .base import Labeler, LabelResult
 
 
-class RLMLabeler(Labeler):
+class GPTLabeler(Labeler):
     """
-    RLM-style labeler using LLM API calls.
+    GPT-based labeler using OpenAI API.
 
-    Key differences from pure RLM:
-    - Bounded retries (no infinite loops)
-    - Explicit termination conditions
-    - Call counting for analysis
-    - Batching for efficiency
+    Used for direct comparison with RLM paper results.
     """
 
-    def __init__(self, max_retries: int = 1, model: str = "claude-haiku-4-5-20251001"):
-        # NOTE: NEVER use sonnet 4 - use haiku 4.5 (3x cheaper, similar accuracy)
+    def __init__(self, max_retries: int = 1, model: str = "gpt-5-chat-latest"):
         """
-        Initialize RLM labeler.
+        Initialize GPT labeler.
 
         Args:
             max_retries: Max retry attempts per label
-            model: Claude model to use (haiku is cheapest)
+            model: OpenAI model to use
         """
         self.max_retries = max_retries
         self.model = model
@@ -37,32 +31,32 @@ class RLMLabeler(Labeler):
         self.client = None
 
     def _ensure_client(self):
-        """Lazy load Anthropic client."""
+        """Lazy load OpenAI client."""
         if self.client is None:
             try:
-                import anthropic
-                self.client = anthropic.Anthropic()
+                from openai import OpenAI
+                self.client = OpenAI()
             except ImportError:
                 raise ImportError(
-                    "anthropic required. Install with: pip install anthropic"
+                    "openai required. Install with: pip install openai"
                 )
             except Exception as e:
-                if "ANTHROPIC_API_KEY" in str(e):
+                if "OPENAI_API_KEY" in str(e):
                     raise ValueError(
-                        "ANTHROPIC_API_KEY environment variable required"
+                        "OPENAI_API_KEY environment variable required"
                     )
                 raise
 
     def label(self, instance: str, vocabulary: list[str]) -> LabelResult:
         """
-        Label a single instance using LLM.
+        Label a single instance using GPT.
 
         Args:
             instance: Question text to classify
             vocabulary: Available label options
 
         Returns:
-            LabelResult with LLM's classification
+            LabelResult with GPT's classification
         """
         self._ensure_client()
         self.call_count += 1
@@ -77,22 +71,22 @@ Respond with ONLY the category name, nothing else."""
 
         for attempt in range(self.max_retries + 1):
             try:
-                response = self.client.messages.create(
+                response = self.client.chat.completions.create(
                     model=self.model,
                     max_tokens=20,
                     messages=[{"role": "user", "content": prompt}]
                 )
 
-                label = response.content[0].text.strip().lower()
+                label = response.choices[0].message.content.strip().lower()
 
                 # Validate against vocabulary
                 if label in vocabulary:
-                    return LabelResult(label=label, confidence=0.95, source="rlm")
+                    return LabelResult(label=label, confidence=0.95, source="gpt")
 
                 # Try to find closest match
                 for v in vocabulary:
                     if v in label or label in v:
-                        return LabelResult(label=v, confidence=0.8, source="rlm")
+                        return LabelResult(label=v, confidence=0.8, source="gpt")
 
             except Exception as e:
                 if attempt == self.max_retries:
@@ -100,11 +94,11 @@ Respond with ONLY the category name, nothing else."""
                     return LabelResult(
                         label=vocabulary[0] if vocabulary else "",
                         confidence=0.3,
-                        source="rlm_error"
+                        source="gpt_error"
                     )
 
         # Fallback to first vocab item
-        return LabelResult(label=vocabulary[0], confidence=0.5, source="rlm")
+        return LabelResult(label=vocabulary[0], confidence=0.5, source="gpt")
 
     def label_batch(self, instances: list[str], vocabulary: list[str]) -> list[LabelResult]:
         """
@@ -141,13 +135,13 @@ Example format:
 ..."""
 
         try:
-            response = self.client.messages.create(
+            response = self.client.chat.completions.create(
                 model=self.model,
                 max_tokens=len(instances) * 30,
                 messages=[{"role": "user", "content": prompt}]
             )
 
-            raw_output = response.content[0].text.strip()
+            raw_output = response.choices[0].message.content.strip()
             lines = raw_output.split('\n')
 
             results = []
@@ -164,7 +158,7 @@ Example format:
                     results.append(LabelResult(
                         label=label,
                         confidence=0.9,
-                        source="rlm"
+                        source="gpt"
                     ))
                 else:
                     # Find closest match
@@ -174,7 +168,7 @@ Example format:
                             results.append(LabelResult(
                                 label=v,
                                 confidence=0.7,
-                                source="rlm"
+                                source="gpt"
                             ))
                             matched = True
                             break
@@ -182,7 +176,7 @@ Example format:
                         results.append(LabelResult(
                             label=vocabulary[0],
                             confidence=0.5,
-                            source="rlm"
+                            source="gpt"
                         ))
 
             # Pad if response was short
@@ -190,7 +184,7 @@ Example format:
                 results.append(LabelResult(
                     label=vocabulary[0],
                     confidence=0.4,
-                    source="rlm_incomplete"
+                    source="gpt_incomplete"
                 ))
 
             return results[:len(instances)]
@@ -201,7 +195,7 @@ Example format:
                 LabelResult(
                     label=vocabulary[0] if vocabulary else "",
                     confidence=0.3,
-                    source="rlm_error"
+                    source="gpt_error"
                 )
                 for _ in instances
             ]

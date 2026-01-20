@@ -1,0 +1,28 @@
+{
+  "score": 73.2350860415422,
+  "exact_match": 63.6,
+  "calls": 1900,
+  "model": "gpt-5-chat-latest",
+  "by_task": {
+    "TASK_TYPE.MOST_FREQ": {
+      "score": 60.0,
+      "n": 25
+    },
+    "TASK_TYPE.LEAST_FREQ": {
+      "score": 68.75,
+      "n": 16
+    },
+    "TASK_TYPE.RELATIVE_FREQ": {
+      "score": 79.28571428571428,
+      "n": 140
+    },
+    "TASK_TYPE.NUMERIC_ONE_CLASS": {
+      "score": 64.7503309290084,
+      "n": 65
+    },
+    "TASK_TYPE.SECOND_MOST_FREQ": {
+      "score": 100.0,
+      "n": 4
+    }
+  }
+}
